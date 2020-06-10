@@ -4,4 +4,4 @@ This repository contains the under-the-construction hackathon planning kit which
 
 ## Creative Commons License
 
-All contributions to this project will be released under the [CC BY 4.0 dedication]( (https://creativecommons.org/licenses/by/4.0/). By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
+All contributions to this project will be released under the [CC BY 4.0 dedication](https://creativecommons.org/licenses/by/4.0/). By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
