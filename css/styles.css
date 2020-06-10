@@ -5504,13 +5504,14 @@ a.close.disabled {
   color: darkred;
 }
 .warning-border {
+  padding: 0.75rem;
+}
+.warning-content {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   border: 3px dotted darkred;
-}
-.warning-content {
   margin-bottom: 0 !important;
 }
 
