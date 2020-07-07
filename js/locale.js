@@ -38,7 +38,7 @@ function showCookieBanner() {
 		SE: 'Sweden'
 	}
 
-	$.getJSON('http://ip-api.com/json/', function (data) {
+	$.getJSON('https://freegeoip.app/json/', function (data) {
     	console.log("country code: "+data.countryCode.toUpperCase())
 	    if (!!countryCodes[data.countryCode.toUpperCase()] == true) {
 	    	console.log("show cookie alert")
