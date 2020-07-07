@@ -42,7 +42,6 @@ function checkLocale() {
 	    if (!!countryCodes[data.country_code.toUpperCase()] == true) {
 	    	showCookieAlert();
 	    } else {
-	    	console.log('enabling analytics out of EU');
         	enableAnalytics();
 	    }
 	});
