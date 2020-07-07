@@ -57,4 +57,14 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
+    //ensure that header image is always maxed and the content is centered
+    var windowHeight = $(window).height();
+    var containerHeight = $('#header-container').height();
+    var paddingValue = Math.round((windowHeight-containerHeight)/2);
+    if (paddingValue <= 115) {
+        paddingValue = 115;
+    }
+    $('header').css({ 'height': windowHeight });
+    $('#header').css({ 'padding-top': paddingValue+'px' });
+
 })(jQuery); // End of use strict
