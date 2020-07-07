@@ -1,6 +1,6 @@
 // Localization for analytics
 
-function showCookieBanner() {
+function checkLocale() {
 
 	var countryCodes = {
 		AT: 'Austria',
@@ -39,12 +39,11 @@ function showCookieBanner() {
 	}
 
 	$.getJSON('https://freegeoip.app/json/', function (data) {
-    	console.log("country code: "+data.country_code.toUpperCase())
 	    if (!!countryCodes[data.country_code.toUpperCase()] == true) {
-	    	console.log("show cookie alert")
 	    	showCookieAlert();
 	    } else {
-	    	console.log("hide cookie alert")
+	    	console.log('enabling analytics out of EU');
+        	enableAnalytics();
 	    }
 	});
 };

@@ -6,8 +6,8 @@
     (function ($) {
     "use strict"; // Start of use strict
 
-    // shown banner only if necessary
-    showCookieBanner();
+    // shown banner and deactivate cookies if not agreed
+    checkLocale();
 
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
