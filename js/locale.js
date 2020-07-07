@@ -39,8 +39,8 @@ function showCookieBanner() {
 	}
 
 	$.getJSON('https://freegeoip.app/json/', function (data) {
-    	console.log("country code: "+data.countryCode.toUpperCase())
-	    if (!!countryCodes[data.countryCode.toUpperCase()] == true) {
+    	console.log("country code: "+data.country_code.toUpperCase())
+	    if (!!countryCodes[data.country_code.toUpperCase()] == true) {
 	    	console.log("show cookie alert")
 	    	showCookieAlert();
 	    } else {
