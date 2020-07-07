@@ -3,6 +3,15 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
     */
+    function resizeHeader() {
+        var paddingValue = Math.round(($(window).height()-$('#header-container').height())/2);
+        if (paddingValue <= 115) {
+            paddingValue = 115;
+        }
+        $('header').css({ 'height': $(window).height() });
+        $('#header').css({ 'padding-top': paddingValue+'px' });
+    };
+
     (function ($) {
     "use strict"; // Start of use strict
 
@@ -58,13 +67,10 @@
     $(window).scroll(navbarCollapse);
 
     //ensure that header image is always maxed and the content is centered
-    var windowHeight = $(window).height();
-    var containerHeight = $('#header-container').height();
-    var paddingValue = Math.round((windowHeight-containerHeight)/2);
-    if (paddingValue <= 115) {
-        paddingValue = 115;
-    }
-    $('header').css({ 'height': windowHeight });
-    $('#header').css({ 'padding-top': paddingValue+'px' });
+    resizeHeader();
+
+    $(window).on('resize', function(){
+        resizeHeader();        
+    });
 
 })(jQuery); // End of use strict
