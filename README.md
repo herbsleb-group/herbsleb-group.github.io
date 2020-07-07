@@ -8,4 +8,4 @@ This repository contains the hackathon planning kit jointly constructed by:
 [**Read our herbsleb-group’s hackathon planning kit**](https://hackathon-planning-kit.org/)
 
 
-All contributions to this project will be released under the [CC BY 4.0 dedication](https://creativecommons.org/licenses/by/4.0/). By submitting a pull request, you are agreeing to comply with this waiver of copyright interest. You are free to share and adapt but we urge you to give appropriate credit to the original content.
+All contributions to this project will be released under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). By submitting a pull request, you are agreeing to comply with this waiver of copyright interest. You are free to share and adapt the content here but you are required to give appropriate credit to the original content and share your content under the same lincense.
