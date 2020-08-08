@@ -64,42 +64,163 @@ var references = [{
 	'id': 'filippova2017from',
 	'type': 'pub',
 	'text': 'Filippova, A., Trainer, E., & Herbsleb, J. D. (2017). From diversity by numbers to diversity as process: supporting inclusiveness in software development teams with brainstorming. In <i>2017 IEEE/ACM 39th International Conference on Software Engineering (ICSE)</i> (pp. 152-163). IEEE.',
+	'title': 'From diversity by numbers to diversity as process: supporting inclusiveness in software development teams with brainstorming. <i>IEEE/ACM International Conference on Software Engineering</i>',
+	'abstract': 'Time-bounded events such as hackathons, data dives, codefests, hack-days, sprints or edit-a-thons have increasingly gained attention from practitioners and researchers. Yet there is a paucity of research on corporate hackathons, which are nearly ubiquitous and present significant organizational, cultural, and managerial challenges. To provide a comprehensive understanding of team processes and broad array of outcomes of corporate hackathons, we conducted a mixed-methods, multiple case study of five teams that participated in a large scale corporate hackathon. Two teams were “pre-existing” teams (PETs) and three were newly-formed “flash” teams (FTs). Our analysis revealed that PETs coordinated almost as if it was just another day at the office while creating innovations within the boundary of their regular work, whereas FTs adopted role-based coordination adapted to the hackathon context while creating innovations beyond the boundary of their regular work. Project sustainability depended on how much effort the team put into finding a home for their projects and whether their project was a good fit with existing products in the organization’s product portfolio. Moreover, hackathon participation had perceived positive effects on participants’ skills, careers, and social networks.',
 	'link': 'Filippova-ICSE-2017.pdf'
 }, {
 	'id': 'nolte2018you',
 	'type': 'pub',
 	'text': 'Nolte, A., Pe-Than, E. P. P., Filippova, A., Bird, C., Scallen, S., & Herbsleb, J. D. (2018). You Hacked and Now What? - Exploring Outcomes of a Corporate Hackathon. <i>Proc. ACM Hum.-Comput. Interact. 2</i>, CSCW, 129:1-129:23.',
+	'title': 'You Hacked and Now What? - Exploring Outcomes of a Corporate Hackathon. <i>Proceedings of the ACM on Human Computer Interaction</i>',
+	'abstract': 'Time bounded events such as hackathons, data dives, codefests, hack-days, sprints or edit-a-thons have increasingly gained attention from practitioners and researchers. Existing research, however, has mainly focused on the event itself, while potential outcomes of hackathons have received limited attention. Furthermore, most research around hackathons focuses on collegiate or civic events. Research around hackathons internal to tech companies, which are nearly ubiquitous, and present significant organizational, cultural, and managerial challenges, remains scarce. In this paper we address this gap by presenting findings from a case study of five teams which participated in a large scale corporate hackathon. Most team members voiced their intentions to continue the projects their worked on during the hackathon, but those whose projects did get continued were characterized by meticulous preparation, a focus on executing a shared vision during the hackathon, extended dissemination activities afterwards and a fit to existing product lines. Such teams were led by individuals who perceived the hackathon as an opportunity to bring their idea to life and advance their careers, and who recruited teams who had a strong interest in the idea and in learning the skills necessary to contribute efficiently. Our analysis also revealed that individual team members perceived hackathon participation to have positive effects on their career parts, networks and skill development.',
 	'link': 'Nolte-CSCW-2018.pdf'
 }, {
 	'id': 'medina2019does',
 	'type': 'pub',
 	'text': 'Medina Angarita, M. A., & Nolte, A. (2019). Does it matter why we hack? - Exploring the impact of goal alignment in hackathons. In <i>Proceedings of 17th European Conference on Computer-Supported Cooperative Work</i>.',
+	'title': 'Does it matter why we hack? - Exploring the impact of goal alignment in hackathons. <i>European Conference on Computer-Supported Cooperative Work</i>',
+	'abstract': 'Time-bounded events such as hackathons have become increasingly popular in recent years. During these events participants typically form teams, exercise fast prototype development, challenge themselves to innovate, practice new skills, collaborate with diverse team members, and compete against other teams. Hackathon organizers have a certain vision in mind about which outcome they would like to achieve and design the event based on this vision. Participants on the other hand do not necessarily share the same vision and come with their own goals and aspirations. While work in related fields suggests that it is important for goals of organizers and participants to align in order to achieve them this might be different in hackathons due to their unique setup. Drawing from literature we identified potential goals of organizers and participants and conducted a case study of three hackathons focusing on the alignment of goals between organizers and participants. Our findings indicate that the goals of organizers and participants did not align in all cases, that goal awareness on the part of the organizers appears may have a stronger impact on goal achievement and that hackathons appear to have inherent characteristics that can materialize even when not planned for.',
 	'link': 'Medina-ECSCW-2019.pdf'
 }, {
 	'id': 'nolte2019touched',
 	'type': 'pub',
 	'text': 'Nolte, A. (2019). Touched by the Hackathon: A Study on the Connection between Hackathon Participants and Start-Up Founders. In <i>International Workshop on Software-intensive Business 2019: Start-ups, Ecosystems and Platforms (IWSiB 2019)</i> (pp. 31-36).',
+	'title': 'Touched by the Hackathon: A Study on the Connection between Hackathon Participants and Start-Up Founders. <i>ACM SIGSOFT International Workshop on Software-Intensive Business: Start-ups, Platforms and Ecosystems</i>',
+	'abstract': 'Time-bounded events such as hackathons, code fests and others have become a global phenomenon. Entrepreneurial hackathons in particular have gained wide spread popularity because they come with the prospect to being the grounds where the next billion dollar enterprise is born. There is however limited insight into whether and how hackathons participants and start-up founders are connected beyond studies on singular events focusing on hackathons as a starting point for start-ups. To address this gap we conducted a study on a dataset covering 44 hackathons over three years and 489 start-ups in the North-Eastern European country of Estonia. Our findings indicate that hackathons are not always the start of an entrepreneurial endeavor but can also be useful through later stages as a means to develop future products, find future employees and others. The results presented in this paper are based on an initial analysis of this rich dataset and thus present the starting point of a larger study on the connection between the hackathon and start-up communities which is currently in planning.',
 	'link': 'Nolte-SIGSOFT-workshop-2019.pdf'
 }, {
 	'id': 'pe2019understanding',
 	'type': 'pub',
-	'text': 'Pe-Than, E. P. P., & Herbsleb, J.D. (2019). Understanding Hackathons for Science: Collaboration, Affordances, and Outcomes. In <i>International Conference on Information (pp. 27-37)</i>.',
+	'text': 'Pe-Than, E. P. P., & Herbsleb, J.D. (2019). Understanding Hackathons for Science: Collaboration, Affordances, and Outcomes. In <i>International Conference on Information</i> (pp. 27-37).',
+	'title': 'Understanding Hackathons for Science: Collaboration, Affordances, and Outcomes. In <i>International Conference on Information</i>',
+	'abstract': 'Nowadays, hackathons have become a popular way of bringing people together to engage in brief, intensive collaborative work. Despite being a brief activity, being collocated with team members and focused on a task \'radical collocation\' could improve collaboration of scientific software teams. Using a mixed-methods study of participants who attended two hackathons at Space Telescope Science Institute (STScI), we examined how hackathons can facilitate collaboration in scientific software teams which typically involve members from two different disciplines: science and software engineering. We found that hackathons created a focused interruption-free working environment in which team members were able to assess each other\'s skills, focus together on a single project and leverage opportunities to exchange knowledge with other collocated participants, thereby allowing technical work to advance more efficiently. This study suggests hacking" as a new and productive form of collaborative work in scientific software production.',
 	'link': 'Pethan-iConference-2019.pdf'
 }, {
 	'id': 'pe2019designing',
 	'type': 'pub',
 	'text': 'Pe-Than, E. P. P., Nolte, A., Filippova, A., Bird, C., Scallen, S. & Herbsleb, J. D. (2019). Designing Corporate Hackathons With a Purpose. <i>IEEE Software 36</i>, 1, 15-22.',
+	'title': 'Designing Corporate Hackathons With a Purpose. <i>IEEE Software</i>',
+	'abstract': 'In hackathons, small teams work together over a specified period of time to complete a project of interest. Hackathons have become increasingly popular as a means to surface and prototype innovative and creative ideas for products, but their impact often goes beyond product innovation. Based on our empirical studies of 10 hackathons held by scientific communities, a corporation, and universities as well as the review of published literature, we discuss that hackathons can be organized around goals such as enriching social networks, facilitating collaborative learning, and workforce development. We also discuss design choices that can scaffold the organization of hackathons and their trade-offs. Design choices include identifying a suitable mixture of attendee skills, the selection process for projects and teams, and whether to hold a competitive or collaborative event. Hackathons can achieve multiple goals if designed carefully.',
 	'link': 'Pethan-IEEESW-2019.pdf'
 }, {
 	'id': 'nolte2020mentor',
 	'type': 'pub',
 	'text': 'Nolte, A., Hayden, L. B., & Herbsleb, J. D. (2020). How to Support Newcomers in Scientific Hackathons - An Action Research Study on Expert Mentoring. <i>Proc. ACM Hum.-Comput. Interact. 4</i>, CSCW1, Article 25 (May 2020), 23 pages.',
+	'title': 'How to Support Newcomers in Scientific Hackathons - An Action Research Study on Expert Mentoring. <i>Proceedings of the ACM on Human Computer Interaction</i>',
+	'abstract': 'Time-bounded events such as hackathons have become a global phenomenon. Scientific communities in particular show growing interest in organizing them to attract newcomers and develop technical artifacts to expand their code base. Current hackathon approaches presume that participants have sufficient expertise to work on projects on their own. They only provide occasional support by domain experts serving as mentors which might not be sufficient for newcomers. Drawing from work on workplace and educational mentoring, we developed and evaluated an approach where each hackathon team is supported by a community member who serves in a mentor role that goes beyond providing occasional support. Evaluating this approach, we found that teams who took ownership of their projects, set achievable goals early while building social ties with their mentor and receiving learning-oriented support reported positive perceptions related to their project and an increased interest in the scientific community that organized the hackathon. Our work thus contributes to our understanding of mentoring in hackathons, an area which has not been extensively studied. It also proposes a feasible approach for scientific communities to attract and integrate newcomers which is crucial for their long-term survival.',
 	'link': 'Nolte-CSCW-2020.pdf'
 }, {
 	'id': 'pe2020corporate',
 	'type': 'pub',
 	'text': 'Pe-Than, E. P. P., Nolte, A., Filippova, A., Bird, C., Scallen, S., & Herbsleb, J. D. (2020). Corporate Hackathons, How and Why? A Multiple Case Study of Motivation, Project Proposal and Selection, Goal Setting, Coordination, and Project Continuation. <i>Human-Computer Interaction</i>.',
+	'title': 'Corporate Hackathons, How and Why? A Multiple Case Study of Motivation, Project Proposal and Selection, Goal Setting, Coordination, and Project Continuation. <i>Human-Computer Interaction</i>',
+	'abstract': 'Time-bounded events such as hackathons, data dives, codefests, hack-days, sprints or edit-a-thons have increasingly gained attention from practitioners and researchers. Yet there is a paucity of research on corporate hackathons, which are nearly ubiquitous and present significant organizational, cultural, and managerial challenges. To provide a comprehensive understanding of team processes and broad array of outcomes of corporate hackathons, we conducted a mixed-methods, multiple case study of five teams that participated in a large scale corporate hackathon. Two teams were “pre-existing” teams (PETs) and three were newly-formed “flash” teams (FTs). Our analysis revealed that PETs coordinated almost as if it was just another day at the office while creating innovations within the boundary of their regular work, whereas FTs adopted role-based coordination adapted to the hackathon context while creating innovations beyond the boundary of their regular work. Project sustainability depended on how much effort the team put into finding a home for their projects and whether their project was a good fit with existing products in the organization’s product portfolio. Moreover, hackathon participation had perceived positive effects on participants’ skills, careers, and social networks.',
 	'link': 'Pethan-HCI-2020.pdf'
+}, {
+	'id': 'trainer2017mentor',
+	'type': 'pub',
+	'text': 'Trainer, E. H., Kalyanasundaram, A., & Herbsleb, J. D. (2017). E-Mentoring for Software Engineering: a Socio-Technical Perspective. In <i>Proceedings of the 2017 IEEE/ACM 39th International Conference on Software Engineering: Software Engineering Education and Training Track</i> (pp. 107-116).',
+	'title': 'E-Mentoring for Software Engineering: a Socio-Technical Perspective. <i>IEEE/ACM International Conference on Software Engineering</i>',
+	'abstract': 'Mentoring is one of the most effective pedagogical tools, holding great promise for software engineering education. When done badly, however, it can lead to dysfunctional interpersonal relationships and may turn off mentees from careers in software engineering. In this qualitative interview-based study we examine how socio-technical dimensions of software impact the formation of social ties important for satisfying two goals of mentorship, building technical skill and interpersonal development. We find that mentees working on user facing, interdependent software form a balance of ties that facilitate both goals, while mentees working on non-user facing software mostly form ties important for building technical skill. Work practices that create opportunities for unstructured contact between mentees and community members, such as code review in a mentee cohort, can help to overcome this imbalance. Our findings have important implications for task definition in software engineering e-mentoring program schemes.',
+	'link': 'Trainer-ICSE-2017.pdf'
+}, {
+	'id': 'trainer2016how',
+	'type': 'pub',
+	'text': 'Trainer, E. H., Kalyanasundaram, A., Chaihirunkarn, C., & Herbsleb, J. D. (2016). How to Hackathon: Socio-technical Tradeoffs in Brief, Intensive Collocation. In <i>Proceedings of the 19th ACM Conference on Computer Supported Cooperative Work & Social Computing</i> (pp. 1118-1130).',
+	'title': 'How to Hackathon: Socio-technical Tradeoffs in Brief, Intensive Collocation. <i>ACM Conference on Computer Supported Cooperative Work & Social Computing</i>',
+	'abstract': 'Hackathons are events where people who are not normally collocated converge for a few days to write code together. Hackathons, it seems, are everywhere. We know that long- term collocation helps advance technical work and facilitate enduring interpersonal relationships, but can similar benefits come from brief, hackathon-style collocation? How do participants spend their time preparing, working face-to- face, and following through these brief encounters? Do the activities participants select suggest a tradeoff between the social and technical benefits of collocation? We present results from a multiple-case study that suggest the way that hackathon-style collocation advances technical work varies across technical domain, community structure, and expertise of participants. Building social ties, in contrast, seems relatively constant across hackathons. Results from different hackathon team formation strategies suggest a tradeoff between advancing technical work and building social ties. Our findings have implications for technology support that needs to be in place for hackathons and for understanding the role of brief interludes of collocation in loosely-coupled, geographically distributed work.',
+	'link': 'Trainer-CSCW-2016.pdf'
+}, {
+	'id': 'trainer2015from',
+	'type': 'pub',
+	'text': 'Trainer, E. H., Chaihirunkarn, C., Kalyanasundaram, A., & Herbsleb, J. D. (2015). From Personal Tool to Community Resource: What’s the Extra Work and Who Will Do It? In <i>Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing</i> (pp. 417-430).',
+	'title': 'From Personal Tool to Community Resource: What’s the Extra Work and Who Will Do It? <i>ACM Conference on Computer Supported Cooperative Work & Social Computing</i>',
+	'abstract': 'Sharing scientific data, software, and instruments is becoming increasingly common as science moves toward large-scale, distributed collaborations. Sharing these resources requires extra work to make them generally useful. Although we know much about the extra work associated with sharing data, we know little about the work associated with sharing contributions to software, even though software is of vital importance to nearly every scientific result. This paper presents a qualitative, interview-based study of the extra work that developers and end users of scientific software undertake. Our findings indicate that they conduct a rich set of extra work around community management, code maintenance, education and training, developer-user interaction, and foreseeing user needs. We identify several conditions under which they are likely to do this work, as well as design principles that can facilitate it. Our results have important implications for future empirical studies as well as funding policy.',
+	'link': 'Trainer-CSCW-2015.pdf'
+}, {
+	'id': 'trainer2014community',
+	'type': 'pub',
+	'text': 'Trainer, E. H., Chaihirunkarn, C., Kalyanasundaram, A., & Herbsleb, J. D. (2014). Community Code Engagements: Summer of Code & Hackathons for Community Building in Scientific Software. In Proceedings of the 18th International Conference on Supporting Group Work (pp. 111-121.).',
+	'title': 'Community Code Engagements: Summer of Code & Hackathons for Community Building in Scientific Software. <i>International Conference on Supporting Group Work</i>',
+	'abstract': 'Community code engagements, short-term, intensive software development event, are used by some scientific communities to create new software features and promote community building. But there is as yet little empirical support for their effectiveness. This paper presents a qualitative study of two types of community code engagements: Google Summer of Code (GSoC) and hackathons. We investigated the range of outcomes these engagements produce and the underlying practices that lead to these outcomes. In GSoC, the vision and experience of core members of the community influence project selection, and the intensive mentoring process facilitates creation of strong ties. Most GSoC projects result in stable features. The agenda setting phase of hackathons reveals high priority issues perceivedby the community. Social events among the relatively large numbers of participants over brief engagements tend to create weak ties. Most hackathons result in prototypes rather than finished tools. We discuss themes and tradeoffs that suggest directions for future empirical work around designing community code engagements.',
+	'link': 'Trainer-GROUP-2014.pdf'
+}, {
+	'id': 'trainer2014big',
+	'type': 'pub',
+	'text': 'Trainer, E. H., Chaihirunkarn C., &amp; Herbsleb, J. D. (2014). The Big Effects of Short-term Efforts: Mentorship and Code Integration in Open Source Scientific Software. <i>Journal of Open Research Software</i>, 2(1), 1-5.',
+	'title': 'The Big Effects of Short-term Effort: Mentorship and Code Integration in Open Source Scientific Software. <i>Journal of Open Research Software</i>',
+	'abstract': 'Scientific progress relies crucially on software, yet in practice there are significant challenges to scientific software production and maintenance. We conducted a case study of a bioinformatics software library called Biopython to investigate the promise of Google Summer of Code (GSoC), a program that pays students to work on open-source projects for the summer, for addressing these challenges. We find three positive outcomes of GSoC in the Biopython community: the addition of new features to the Biopython codebase, training, and personal development. We also find, however, that mentors face several challenges related to GSoC project selection and ranking. We believe that because GSoC provides an occasion to extend the software with capabilities that can be used to produce new knowledge, and to train successive generations of potential contributors to the software, it can play a vital role in the sustainability of open-source scientific software.',
+	'link': 'Trainer-JORSW-2014.pdf'
+}, {
+	'id': 'pe2019science',
+	'type': 'pub',
+	'text': 'Pe-Than, E. P. P., Momcheva, I., Tollerud, E., & Herbsleb, J. D. (2019). Hackathons for Science, How and Why? Poster presented at the <i>233rd Meeting of the American Astronomical Society</i>, AAS Meeting #233, id.459.11.',
+	'title': 'Hackathons for Science, How and Why? <i>233rd Meeting of the American Astronomical Society</i>',
+	'abstract': 'Based on our empirical studies of 14 hackathons held by a corporation (Microsoft OneWeek Hackathon), universities, and scientific communities including three hack days at Space Telescope Science Institute (STScI), we will present how hackathons can be designed to achieve specific goals in a semi-academic environment like STScI. Our recommendations are derived from the analysis of data collected through ethnographic observations, interviews, and questionnaires. Hackathons are not only a good way to foster innovation but also to provide learning and knowledge exchange opportunities, to create new and enhance existing social connections, to exercise new technical and leadership opportunities, and to get the needed work done or to make a quick progress on technical work. However, designing a hackathon involves careful upfront planning, project selection, team formation, goal setting, and follow-up activities. Before the hackathon, the organizers should ask potential participants to propose project ideas (e.g., highest priority needed work in the case of STScI), and elicit their skills, expertise, and project preference. The organizers should form teams by matching participants\' skills to required skills for the projects. The resulting teams consist of a mix of members with varying levels of expertise. It is advisable for teams to perform preparatory work which includes appointing a team lead and having pre-event meetings where they discuss their plan for the event, break the projects into small individual tasks, assign tasks to team members, and familiarize themselves with the environment, project, and task. The organizers should advise teams to set realistic goals for the event and keep track of their progress toward these goals. At the end of the event, the organizers should advise teams to present their accomplishment and future plans, and encourage them to plan for future collaboration and designate a person to keep track of the progress. Examples include using the common free time to work side-by-side and self-organizing mini-hackathons (e.g., lunch hacks). With careful consideration of activities mentioned above, hackathons may provide a fruitful avenue of collaboration between astronomers and software experts.',
+	'link': 'Pethan-AAS-poster-2019.pdf'
+}, {
+	'id': 'powell2018science',
+	'type': 'pub',
+	'text': 'Powell, J., Hayden, L. B., Nolte, A., Herbsleb, J. D., Pe-Than, E. P. P., Wong, M., Kalyanam, R., Ellet, K., Pamidighantam, S., Traxler, K., & Cannon, A. (2018). An Analysis of the PEARC 2018 Science Gateways Community Institute Hackathon: Lessons Learned. Poster presented at <i>Gateways 2018</i>.',
+	'title': 'An Analysis of the PEARC 2018 Science Gateways Community Institute Hackathon: Lessons Learned. <i>Gateways 2018</i>',
+	'abstract': 'Science Gateways are web portals on which data, software, instruments, and computing resources provide users, and scientists streamlined workflows through dynamically coded frontends. These web portals allow scientist to focus on research with little to no need to utilize programmatic skills. Hackathons are time-bounded events in which collaborators intensely focus on a given subject or problem in an effort to generate solutions. Hackathon events provide opportunities for participants with diverse backgrounds, mixed specialties, and broad skill sets to interact in a manner that promotes disruptive solutions. Hackathons come in a variety of different forms and serve many different purposes. These purposes include developing resources, infrastructure, practices, and culture for a community. The Science Gateways Community Institute team proposed a hackathon to introduce students attending the PEARC 2018 conference, to the concepts of Science Gateways. The aim of the hackathon was to stimulate interest in Science Gateways while developing projects that were of value to researchers from different disciplines. They believed that PEARC would be an ideal venue for this type of event, due to the community of researchers, students, and practitioners from various disciplines that were interested and skilled in the high-performance computing field attending the conference. The Science Gateways Community Institute utilized a hackathon formatted event to provide students with an opportunity to collaborate and generate targeted skills while creating needed features for production web portals. The student participants included a group of 17 graduate and undergraduate students with predominately underrepresented minorities. The hackathon followed the PEARC 2018 conference held in Pittsburgh, PA. The science gateways targeted during the event were MyGeoHub (Purdue University), Cosmic2 (San Diego Supercomputing Center), and SimCCS (Indiana University) with associated mentors serving as subject matter experts. This poster presents organizational methods and technologies used to coordinate the international planning team, lessons learned during the event, and deliverables presented by the student teams.',
+	'link': 'SGCI-poster-2018.pdf'
+}, {
+	'id': 'pe2019the2nd',
+	'type': 'pub',
+	'text': 'Pe-Than, E. P. P., & Nolte, A. (2019). The 2nd Workshop on Hacking and Making at Time-Bounded Events. <i>arXiv preprint</i>, arXiv:1901.02710',
+	'title': 'The 2nd Workshop on Hacking and Making at Time-Bounded Events. <i>arXiv preprint</i>',
+	'abstract': 'In hackathons, small teams work together over a specified period of time to complete a project of interest. Such time-bounded hackathon-style events have become increasingly popular across different domains in recent years. Collegiate hackathons, just one of the many variants of hackathons, that are supported by the largest hackathon league (https://mlh.io/) alone attract over 65,000 participants among more than 200 events each year. Variously known as data dives, codefests, hack-days, sprints, edit-a-thons, mapathons, and so on, such events vary depending on different audiences and with divergent aims: for example, whether teams know each other beforehand, whether the event is structured as a competition with prizes, whether the event is open or requires membership or invitations, and whether the desired outcome is primarily a product innovation, learning a new skill, forming a community around a cause, solving a technical problem that requires intensive focus by a group, or just having fun. Taken together, hackathons offer new opportunities and challenges for collaboration by affording explicit, predictable, time-bounded spaces for collaborative work and engaging with new audiences. With the goal of discussing opportunities and challenges surrounding hackathons of different kinds, this one-day workshop brought together researchers, experienced event organizers, and practitioners to share and discuss their practical experiences. Empirical insights from studying these events may help position the CHI community to better study, plan and design hackathon-style events as socio-technical systems that support new modes of production and collaboration.',
+	'link': 'Pethan-Techreport-2018.pdf'
+}, {
+	'id': 'filippova2017the1st',
+	'type': 'pub',
+	'text': 'Filippova, A, & Trainer, E. (2017). Technical Report for the 1st Workshop on Hacking and Making at Time-Bounded Events. <i>Technical Report CMU-ISR</i>, CMU-ISR-17-104',
+	'title': 'Technical Report for the 1st Workshop on Hacking and Making at Time-Bounded Events. <i>Technical Report CMU-ISR</i>',
+	'abstract': 'Time-bounded collaborative events in which teams work together under intense time pressure are becoming increasingly popular. In 2015, collegiate hackathons alone attracted over 54,000 participants across 150 events. While hackathons", that is, competitive overnight coding events, are one of the more prevalent examples of this phenomenon, there are many more distinct event design variations for different audiences and with divergent aims: "sprints" bring together existing communities to advance planned work, "code fests" bring together related communities to encourage interoperability, "hack-days" and "hack-weeks" teach hacking and making skills to diverse audiences without software backgrounds, like artists and scientists, "edit-a-thons" support intensive co-generation of encyclopedia content, and so on. Taken together, these events offer new opportunities and challenges for cooperative work by affording explicit, predictable, time-bounded spaces for interdependent work and access to new audiences of collaborators. This one-day workshop brought together: researchers interested in the phenomenon, experienced event organizers, and participants interested in running their own events. The workshop aimed to facilitate consolidating existing research, sharing practical experiences, and understanding what benefits different event variations may offer, how they may be applied in other contexts, and how insights from studying these events may contribute to CSCW knowledge.',
+	'link': 'Filippova-Techreport-2017.pdf'
+}, {
+	'id': 'cfaplaybook',
+	'type': 'guide',
+	'text': 'Code for America - Brigade Organizer\'s Playbook',
+	'details': 'This organizer\'s playbook was built from Code for America\'s research about how to build sustainable civic hacking groups and bring 21st century government practices and products to the cities. This guide contains various check-lists essential for organizing, building, and infrastructure development.',
+	'link': 'code-for-America-playbook.pdf'
+}, {
+	'id': 'mlhplaybook',
+	'type': 'guidelink',
+	'text': 'Major League Hacking (MLH) - The MLH Hackathon Organizer Guide',
+	'details': 'Major League Hacking (MLH) is the official student hackathon league launched in 2013 in the United States. Each year, MLH powers over 200 weekend-long invention competitions that inspire innovation, cultivate communities and teach computer science skills to more than 65,000 students around the world. MLH organizer\'s guide is an essential resource for student hackathon organizers as it contains lots of lessons that MLH and the hackathon community around the world have learnt from organizing the hackathons. This guide organizes activities that organizers need to perform by timeline and also includes other useful resources such as example documents for budget and volunteer guides as well as software for hackathon.',
+	'link': 'https://guide.mlh.io/'
+}, {
+	'id': 'opendataplaybook',
+	'type': 'guidelink',
+	'text': 'Open Data Day DC by Joshua Tauberer - How to run a successful hackathon (Open Data Day DC)',
+	'details': 'This guide is created out of the author\'s experience of running 5 successful years of Open Data Day DC and other civic hackathosn that they involved in. In addition to providing basic requirements and logistics for hackathon, this guide touches one of the important and hardest topics of welcoming and onboarding newcomers as well as cultivating good hackahton projects.',
+	'link': 'https://hackathon.guide/'
+}, {
+	'id': 'chiplaybook',
+	'type': 'guide',
+	'text': 'Chicago Civic Tech - @Civicwhitaker Anthology',
+	'details': 'This is the comprehensive collection of civic hackahtons and other connected events that served a basis for the formation and evolution of the Chicago\'s Civic Tech Ecosystem.',
+	'link': 'civicwhitaker-anthology.pdf'
+}, {
+	'id': 'playbookguide',
+	'type': 'guide',
+	'text': 'Hackathon Playbook',
+	'details': 'This playbook outlines the guidlines for desiging corporate hackathons which is organized into three phases: preparation, hack time, and post-event. It also includes additional useful information regarding how to be a good hackathon judge and how to be a successful hackahton participant as well as when to use one of the two most common styles of hackathons: presentation and science fair.',
+	'link': 'hackathon-playbook-external.pdf'
+}, {
+	'id': 'healthplaybook',
+	'type': 'guide',
+	'text': 'Health Hackathon Handbook - MIT Hacking Medicine',
+	'details': 'This guide provides the who, what, when, where, and how essentials of a health hackthon.',
+	'link': 'health-hackathon-handbook.pdf'
+}, {
+	'id': 'earthplaybook',
+	'type': 'guide',
+	'text': 'The complete guide to organizing a successful hackathon - Hackerearth',
+	'details': 'This guide constructed based on the expertise gleaned from conducting over 800+ hackathons provides an overview of best practices that will help organizers to ensure that their hackathons will provide incredible experience for participants and sponsors. It focuses on two formats of hackathons: offline and online, and outlines the processes for each hackahton format starting from the selection of themes, target audience, format, timing, judges, promotion, etc.',
+	'link': 'hackerearth.pdf'
 }, {
 	'id': 'playbook',
 	'type': 'pub',
@@ -332,8 +453,11 @@ var teamReferences = ['intRecruitment', 'intIdeation', 'intStakeholder', 'pe2020
 var agendaReferences = ['intStakeholder', 'intMentor', 'intTheme', 'intGoal', 'intRecruitment', 'intCompetition', 'woctutorial', 'intIdeation', 'intTeam', 'sgci2019', 'g48cyber', 'intPreparation', 'brainhack', 'icebreaker', 'nofun', 'intDuration', 'nolte2020mentor'];
 var mentoringReferences = ['intContinuity', 'intAgenda', 'intIdeation', 'nolte2020mentor', 'intPreparation', 'greatmentor', 'perfectmentor', 'g48mentor', 'intCompetition'];
 var continuityReferences = ['intGoal', 'intStakeholder', 'startupsfromhackathons', 'intAgenda', 'intIdeation', 'pe2020corporate', 'nolte2018you', 'intPreparation', 'medina2019does', 'intTeam'];
+var peerReviewReferences = ['pe2020corporate', 'nolte2020mentor', 'medina2019does', 'pe2019understanding', 'pe2019designing', 'nolte2018you', 'filippova2017from', 'trainer2017mentor', 'trainer2016how', 'trainer2015from', 'trainer2014community', 'trainer2014big'];
+var workshopReferences = ['nolte2019touched', 'pe2019science', 'powell2018science', 'pe2019the2nd', 'filippova2017the1st'];
+var guideReferences = ['cfaplaybook', 'mlhplaybook', 'opendataplaybook', 'chiplaybook', 'playbookguide', 'healthplaybook', 'earthplaybook'];
 
-function printReference(decision, thisId) {
+function printDecisionReference(decision, thisId) {
 	var decisionReferences = getDecisionReferences(decision);
 	var decisionNo = getDecisionNo(decision);
 	
@@ -350,7 +474,7 @@ function printReference(decision, thisId) {
 	}
 };
 
-function printReferenceList(decision) {
+function printDecisionReferenceList(decision) {
 	var decisionReferences = getDecisionReferences(decision);
 	var decisionNo = getDecisionNo(decision);
 
@@ -426,5 +550,40 @@ function getDecisionNo(decision) {
 		return 11;
 	} else if (decision == 'continuity') {
 		return 12;
+	}
+};
+
+function printPaperList(type) {
+	var paperlist;
+	if (type == 'peerreviewed') {
+		paperlist = peerReviewReferences;
+	} else if (type == 'workshops') {
+		paperlist = workshopReferences;
+	}
+
+	for (var i = 0; i < paperlist.length; i++) {
+		var id = paperlist[i];
+		for (var j = 0; j < references.length; j++) {
+			var reference = references[j];
+			if (reference['id'] == id) {
+				document.write('<li class="list-item">'+reference['title']+' (<a onclick="$(\'#pub'+reference['id']+'abstract\').slideToggle(\'slow\');">abstract</a>, <a onclick="$(\'#pub'+reference['id']+'reference\').slideToggle(\'slow\');">reference</a>, <a href="files/'+reference['link']+'" target="_blank">pdf</a>)<p id="pub'+reference['id']+'abstract" class="listtoggle text-muted"><b>Abstract:</b> '+reference['abstract']+'</p><p id="pub'+reference['id']+'reference" class="listtoggle text-muted"><b>Reference:</b> '+reference['text']+'</p></li>');
+			}
+		}
+	}
+};
+
+function printGuideList() {
+	for (var i = 0; i < guideReferences.length; i++) {
+		var id = guideReferences[i];
+		for (var j = 0; j < references.length; j++) {
+			var reference = references[j];
+			if (reference['id'] == id) {
+				if (reference['type'] == 'guide') {
+					document.write('<li class="list-item">'+reference['text']+' (<a onclick="$(\'#guide'+reference['id']+'details\').slideToggle(\'slow\');">details</a>, <a href="files/'+reference['link']+'" target="_blank">pdf</a>)<p id="guide'+reference['id']+'details" class="listtoggle text-muted">'+reference['details']+'</p></li>');
+				} else if (reference['type'] == 'guidelink') {
+					document.write('<li class="list-item">'+reference['text']+' (<a onclick="$(\'#guide'+reference['id']+'details\').slideToggle(\'slow\');">details</a>, <a href="'+reference['link']+'" target="_blank">link</a>)<p id="guide'+reference['id']+'details" class="listtoggle text-muted">'+reference['details']+'</p></li>');
+				}
+			}
+		}
 	}
 };
