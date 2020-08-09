@@ -119,10 +119,24 @@ var references = [{
 }, {
 	'id': 'nolte2020what',
 	'type': 'pub',
-	'text': 'Nolte, A., Chounta, I. A., & Herbsleb, J. D. (2020). What Happens to All These Hackathon Projects? - Identifying Factors to Promote Hackathon Project Continuation. <i>Proc. ACM Hum.-Comput. Interact. 4</i>, CSCW2, Article 145 (October 2020), 26 pages.',
+	'text': 'Nolte, A., Chounta, I.-A., & Herbsleb, J. D. (2020). What Happens to All These Hackathon Projects? - Identifying Factors to Promote Hackathon Project Continuation. <i>Proc. ACM Hum.-Comput. Interact. 4</i>, CSCW2, Article 145 (October 2020), 26 pages.',
 	'title': 'What Happens to All These Hackathon Projects? - Identifying Factors to Promote Hackathon Project Continuation <i>Proceedings of the ACM on Human Computer Interaction</i>',
 	'abstract': 'Time-based events, such as hackathons and codefests, have become a global phenomenon attracting thousands of participants to hundreds of events every year. While research on hackathons has grown considerably, there is still limited insight into what happens to hackathon projects after the event itself has ended. While case studies have provided rich descriptions of hackathons and their aftermath, we add to this literature a large-scale quantitative study of continuation across hackathons in a variety of domains. Our findings indicate that a considerable number of projects get continued after a hackathon has ended. Our results also suggest that short- and long-term continuation are different phenomena. While short-term continuation is associated with technical preparation, number of technologies used in a project and winning a hackathon, long-term continuation is predicated on skill diversity among team members, their technical capabilities in relationship to the technologies and their intention to expand the reach of a project. Moreover, we found intensive short-term activity to be associated with a lower likelihood of long-term project continuation.',
 	'link': 'Nolte-CSCW-2020_2.pdf'
+}, {
+	'id': 'medina2020what',
+	'type': 'pub',
+	'text': 'Medina Angarita, M. A., & Nolte, A. (2020). What do we know about hackathon outcomes and how to support them? – A systematic literature review. <i>International Conference on Collaboration Technologies and Social Computing</i>.',
+	'title': 'What do we know about hackathon outcomes and how to support them? – A systematic literature review. <i>International Conference on Collaboration Technologies and Social Computing</i>',
+	'abstract': 'Hackathons are time-bounded events where participants gather in teams to develop projects that interest them. Such events have been adopted in various domains to generate innovative solutions, foster learning, build and expand communities and to tackle civic and ecological issues. While research interest has also grown subsequently, most studies focus on singular events in specific domains. A systematic overview of the current state of the art is currently missing. Such an overview is however crucial to further study the hackathon phenomenon, understand its underlying mechanisms and develop support for hackathon organizers, in particular related to the sustainability of hackathon outcomes. This paper fills that gap by reporting on the results of a systematic literature review thus providing an overview of potential hackathon outcomes, design aspects and connections between them that have been addressed in prior work. Our findings also outline gaps in prior work e.g. related to the lack of work focusing on hackathon outcomes other than hackathon projects.',
+	'link': 'Medina-Collabtech-2020.pdf'
+}, {
+	'id': 'affia2020developing',
+	'type': 'pub',
+	'text': 'Affia, A. O., Nolte, A., &amp; Matulevi&#269;ius, M. (2020). Developing and Evaluating a Hackathon Approach to Foster Security Learning. <i>International Conference on Collaboration Technologies and Social Computing</i>.',
+	'title': 'Developing and Evaluating a Hackathon Approach to Foster Security Learning. <i>International Conference on Collaboration Technologies and Social Computing</i>',
+	'abstract': 'Securing information systems and teaching people about how to use them securely is one of the significant challenges of the coming years. There is, however, a considerable lack of feasible approaches to train potential future professionals on security. Hackathons appear to be a good approach because studies have found them to not only be useful to teach participants but also to encourage people to explore the security of information systems. Such benefits cannot materialize without careful planning though. In our paper, we propose and evaluate a set of interventions aimed at fostering security learning amongst hackathon participants. Evaluating our approach, we found that emphasizing the need for idea generation, introducing security talks relevant to the ideas generated, interaction with mentors that come from diverse backgrounds, and the introduction of incentives can encourage security learning among participants.',
+	'link': 'Affia-Collabtech-2020.pdf'
 }, {
 	'id': 'trainer2017mentor',
 	'type': 'pub',
@@ -460,7 +474,7 @@ var teamReferences = ['intRecruitment', 'intIdeation', 'intStakeholder', 'pe2020
 var agendaReferences = ['intStakeholder', 'intMentor', 'intTheme', 'intGoal', 'intRecruitment', 'intCompetition', 'woctutorial', 'intIdeation', 'intTeam', 'sgci2019', 'g48cyber', 'intPreparation', 'brainhack', 'icebreaker', 'nofun', 'intDuration', 'nolte2020mentor'];
 var mentoringReferences = ['intContinuity', 'intAgenda', 'intIdeation', 'nolte2020mentor', 'intPreparation', 'greatmentor', 'perfectmentor', 'g48mentor', 'intCompetition'];
 var continuityReferences = ['intGoal', 'intStakeholder', 'startupsfromhackathons', 'intAgenda', 'intIdeation', 'pe2020corporate', 'nolte2018you', 'intPreparation', 'medina2019does', 'intTeam'];
-var peerReviewReferences = ['nolte2020what', 'pe2020corporate', 'nolte2020mentor', 'medina2019does', 'pe2019understanding', 'pe2019designing', 'nolte2018you', 'filippova2017from', 'trainer2017mentor', 'trainer2016how', 'trainer2015from', 'trainer2014community', 'trainer2014big'];
+var peerReviewReferences = ['nolte2020what', 'pe2020corporate', 'nolte2020mentor', 'medina2020what', 'affia2020developing', 'medina2019does', 'pe2019understanding', 'pe2019designing', 'nolte2018you', 'filippova2017from', 'trainer2017mentor', 'trainer2016how', 'trainer2015from', 'trainer2014community', 'trainer2014big'];
 var workshopReferences = ['nolte2019touched', 'pe2019science', 'powell2018science', 'pe2019the2nd', 'filippova2017the1st'];
 var guideReferences = ['cfaplaybook', 'mlhplaybook', 'opendataplaybook', 'chiplaybook', 'playbookguide', 'healthplaybook', 'earthplaybook'];
 
