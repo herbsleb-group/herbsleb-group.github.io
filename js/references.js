@@ -126,15 +126,15 @@ var references = [{
 }, {
 	'id': 'medina2020what',
 	'type': 'pub',
-	'text': 'Medina Angarita, M. A., & Nolte, A. (2020). What do we know about hackathon outcomes and how to support them? – A systematic literature review. <i>International Conference on Collaboration Technologies and Social Computing</i>.',
-	'title': 'What do we know about hackathon outcomes and how to support them? – A systematic literature review. <i>International Conference on Collaboration Technologies and Social Computing</i>',
+	'text': 'Medina Angarita, M. A., & Nolte, A. (2020). What do we know about hackathon outcomes and how to support them? – A systematic literature review. <i>Collaboration Technologies and Social Computing</i>.',
+	'title': 'What do we know about hackathon outcomes and how to support them? – A systematic literature review. <i>Collaboration Technologies and Social Computing</i>',
 	'abstract': 'Hackathons are time-bounded events where participants gather in teams to develop projects that interest them. Such events have been adopted in various domains to generate innovative solutions, foster learning, build and expand communities and to tackle civic and ecological issues. While research interest has also grown subsequently, most studies focus on singular events in specific domains. A systematic overview of the current state of the art is currently missing. Such an overview is however crucial to further study the hackathon phenomenon, understand its underlying mechanisms and develop support for hackathon organizers, in particular related to the sustainability of hackathon outcomes. This paper fills that gap by reporting on the results of a systematic literature review thus providing an overview of potential hackathon outcomes, design aspects and connections between them that have been addressed in prior work. Our findings also outline gaps in prior work e.g. related to the lack of work focusing on hackathon outcomes other than hackathon projects.',
 	'link': 'Medina-Collabtech-2020.pdf'
 }, {
 	'id': 'affia2020developing',
 	'type': 'pub',
-	'text': 'Affia, A. O., Nolte, A., &amp; Matulevi&#269;ius, M. (2020). Developing and Evaluating a Hackathon Approach to Foster Security Learning. <i>International Conference on Collaboration Technologies and Social Computing</i>.',
-	'title': 'Developing and Evaluating a Hackathon Approach to Foster Security Learning. <i>International Conference on Collaboration Technologies and Social Computing</i>',
+	'text': 'Affia, A. O., Nolte, A., &amp; Matulevi&#269;ius, M. (2020). Developing and Evaluating a Hackathon Approach to Foster Security Learning. <i>Collaboration Technologies and Social Computing</i>.',
+	'title': 'Developing and Evaluating a Hackathon Approach to Foster Security Learning. <i>Collaboration Technologies and Social Computing</i>',
 	'abstract': 'Securing information systems and teaching people about how to use them securely is one of the significant challenges of the coming years. There is, however, a considerable lack of feasible approaches to train potential future professionals on security. Hackathons appear to be a good approach because studies have found them to not only be useful to teach participants but also to encourage people to explore the security of information systems. Such benefits cannot materialize without careful planning though. In our paper, we propose and evaluate a set of interventions aimed at fostering security learning amongst hackathon participants. Evaluating our approach, we found that emphasizing the need for idea generation, introducing security talks relevant to the ideas generated, interaction with mentors that come from diverse backgrounds, and the introduction of incentives can encourage security learning among participants.',
 	'link': 'Affia-Collabtech-2020.pdf'
 }, {
