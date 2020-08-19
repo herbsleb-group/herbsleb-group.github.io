@@ -133,7 +133,7 @@ var references = [{
 }, {
 	'id': 'affia2020developing',
 	'type': 'pub',
-	'text': 'Affia, A. O., Nolte, A., &amp; Matulevi&#269;ius, M. (2020). Developing and Evaluating a Hackathon Approach to Foster Security Learning. <i>Collaboration Technologies and Social Computing</i>.',
+	'text': 'Affia, A. O., Nolte, A., &amp; Matulevi&#269;ius, R. (2020). Developing and Evaluating a Hackathon Approach to Foster Security Learning. <i>Collaboration Technologies and Social Computing</i>.',
 	'title': 'Developing and Evaluating a Hackathon Approach to Foster Security Learning. <i>Collaboration Technologies and Social Computing</i>',
 	'abstract': 'Securing information systems and teaching people about how to use them securely is one of the significant challenges of the coming years. There is, however, a considerable lack of feasible approaches to train potential future professionals on security. Hackathons appear to be a good approach because studies have found them to not only be useful to teach participants but also to encourage people to explore the security of information systems. Such benefits cannot materialize without careful planning though. In our paper, we propose and evaluate a set of interventions aimed at fostering security learning amongst hackathon participants. Evaluating our approach, we found that emphasizing the need for idea generation, introducing security talks relevant to the ideas generated, interaction with mentors that come from diverse backgrounds, and the introduction of incentives can encourage security learning among participants.',
 	'link': 'Affia-Collabtech-2020.pdf'
