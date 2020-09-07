@@ -10166,3 +10166,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.rejectcookies {
+  margin-left: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #6c757d;
+}

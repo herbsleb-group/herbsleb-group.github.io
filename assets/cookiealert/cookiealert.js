@@ -8,6 +8,7 @@ function showCookieAlert() {
 
     var cookieAlert = document.querySelector(".cookiealert");
     var acceptCookies = document.querySelector(".acceptcookies");
+    var rejectCookies = document.querySelector(".rejectcookies");
 
     if (!cookieAlert) {
        return;
@@ -26,6 +27,11 @@ function showCookieAlert() {
     // cookie to remember user's choice and close the banner
     acceptCookies.addEventListener("click", function () {
         setCookie("acceptCookies", true, 365);
+        cookieAlert.classList.remove("show");
+    });
+
+    // When clicking on the disagree link, close the banner
+    rejectCookies.addEventListener("click", function () {
         cookieAlert.classList.remove("show");
     });
 
