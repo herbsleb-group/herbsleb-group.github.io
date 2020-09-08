@@ -73,4 +73,32 @@
         resizeHeader();        
     });
 
+    //enabling the back-button for modal close but only when online
+    switch(window.location.protocol) {
+        case 'file:':
+            break;
+        default:
+            $('.modal').on('shown.bs.modal', function() {
+                if (typeof(this.dataset.hash) !== 'undefined') {
+                    history.pushState(null, null, this.dataset.hash);
+                }
+            });
+
+            $('.modal').on('hide.bs.modal', function(event) {
+                if (this.dataset.pushback !== 'true') {
+                    event.preventDefault();
+                    history.back();
+                }
+                this.dataset.pushback = '';
+            });
+
+            window.onpopstate = function() {
+                let open_modal = document.querySelector('.modal.show');
+                if (open_modal) {
+                    open_modal.dataset.pushback = 'true';
+                    $(open_modal).modal('hide');
+                };
+            };
+    }
+
 })(jQuery); // End of use strict
