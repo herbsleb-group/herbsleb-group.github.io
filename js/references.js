@@ -129,7 +129,7 @@ var references = [{
 	'text': 'Powell, J., Hayden, L. B., Cannon, A., Wilson, B., & Nolte, A. (2021) Organizing online hackathons for newcomers to a scientific community – Lessons learned from two events. In: <i>Proceedings of the 6th International Conference on Game Jams, Hackathons, and Game Creation Events</i>.',
 	'title': 'Organizing online hackathons for newcomers to a scientific community – Lessons learned from two events <i>International Conference on Game Jams, Hackathons, and Game Creation Events</i>',
 	'abstract': 'Acquiring computing skills is essential not only to work in computer science but also because many impactful discoveries occur at the interface between traditional scientific disciplines and computing and data science. Time-bounded events such as hackathons can provide an opportunity for newcomers to experience programming firsthand in a collaborative environment. Just providing access to computational resources, however, is not sufficient because newcomers will likely require guidance and support in order for them to perceive their participation in a hackathon as a positive experience propelling them to future success in the subject. We have developed a hackathon format for this purpose that we have successfully applied during in-person events for two years. The global pandemic of 2020, however, forced us to move towards a virtual format. In this paper, we report on our experience making this transition. We will specifically elaborate on two online events, discuss successes and failures and provide suggestions for hackathon organizers.',
-	'link': 'Powell-ICGJ-2021'
+	'link': 'Powell-ICGJ-2021.pdf'
 }, {
 	'id': 'leemet2021utilizing',
 	'type': 'pub',
