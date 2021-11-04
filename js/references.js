@@ -509,7 +509,8 @@ function printDecisionReference(decision, thisId) {
 			var reference = references[j];
 			if (id == reference['id']) {
 				if (reference['id'] == thisId) {
-					document.write('<a href="#decisionsModal'+decisionNo+reference['id']+'">'+(i+1)+'</a>');
+					document.write('<a href="https://hackathon-planning-kit.org/index.html#decisionsModal'+decisionNo+reference['id']+'">'+(i+1)+'</a>');
+					//document.write('<a href="#decisionsModal'+decisionNo+reference['id']+'">'+(i+1)+'</a>');
 				}
 			}
 		}
