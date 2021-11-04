@@ -509,19 +509,12 @@ function printDecisionReference(decision, thisId) {
 			var reference = references[j];
 			if (id == reference['id']) {
 				if (reference['id'] == thisId) {
-					document.write('<a onclick="jumpto(\'decisionsModal'+decisionNo+reference['id']+'\')">'+(i+1)+'</a>');
-					//document.write('<a href="#decisionsModal'+decisionNo+reference['id']+'">'+(i+1)+'</a>');
+					document.write('<a href="#decisionsModal'+decisionNo+reference['id']+'">'+(i+1)+'</a>');
 				}
 			}
 		}
 	}
 };
-
-function jumpto(h){
-    var url = location.href;               //Save down the URL without hash.
-    location.href = "#"+h;                 //Go to the target element.
-    history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
-}
 
 function printDecisionReferenceList(decision) {
 	var decisionReferences = getDecisionReferences(decision);
