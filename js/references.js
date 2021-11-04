@@ -509,8 +509,7 @@ function printDecisionReference(decision, thisId) {
 			var reference = references[j];
 			if (id == reference['id']) {
 				if (reference['id'] == thisId) {
-					document.write(i+1);
-					//document.write('<a href="#decisionsModal'+decisionNo+reference['id']+'">'+(i+1)+'</a>');
+					document.write('<a href="#decisionsModal'+decisionNo+reference['id']+'">'+(i+1)+'</a>');
 				}
 			}
 		}
