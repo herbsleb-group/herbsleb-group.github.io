@@ -42,7 +42,7 @@ function checkLocale() {
 	    if (!!countryCodes[data.country_code.toUpperCase()] == true) {
 	    	showCookieAlert();
 	    } else {
-        	enableAnalytics(false);
+        	enableAnalytics();
 	    }
 	});
 };

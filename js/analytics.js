@@ -1,7 +1,7 @@
 /*
  * Script to enable Google Analytics for this website.
  */
-function enableAnalytics(reloadPage) {
+function enableAnalytics() {
     var tracking_id = 'G-4TNGT8TGMK';
     var gascript = document.createElement("script");
     gascript.async = true;
@@ -13,8 +13,4 @@ function enableAnalytics(reloadPage) {
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', tracking_id, { 'anonymize_ip': true });
-
-    if (reloadPage) {
-        window.location.reload();
-    }
 };
