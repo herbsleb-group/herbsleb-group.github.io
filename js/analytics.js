@@ -13,4 +13,6 @@ function enableAnalytics() {
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', tracking_id, { 'anonymize_ip': true });
+
+    window.location.reload();
 };
