@@ -38,28 +38,13 @@ function checkLocale() {
 		SE: 'Sweden'
 	}
 
-	$.ajax({
-	    beforeSend: function(request) {
-	        request.setRequestHeader("Origin", 'https://hackathon-planning-kit.org/');
-	    },
-	    dataType: "json",
-	    url: 'https://freegeoip.app/json/',
-	    success: function(data) {
-	    	alert("test: "+data)
-		    if (!!countryCodes[data.country_code.toUpperCase()] == true) {
-		    	showCookieAlert();
-		    } else {
-	        	enableAnalytics();
-		    }
-	    }
-	});
-
-/*	$.getJSON('https://freegeoip.app/json/', function (data) {
+	//$.getJSON('https://freegeoip.app/json/', function (data) {
+	$.getJSON('http://ip-api.com/json/', function (data) {
+		alert(data.countryCode.toUpperCase());
 	    if (!!countryCodes[data.country_code.toUpperCase()] == true) {
 	    	showCookieAlert();
 	    } else {
         	enableAnalytics();
 	    }
 	});
-*/
 };
