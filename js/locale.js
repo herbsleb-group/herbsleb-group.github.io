@@ -38,9 +38,7 @@ function checkLocale() {
 		SE: 'Sweden'
 	}
 
-	//$.getJSON('https://freegeoip.app/json/', function (data) {
 	$.getJSON('https://ipapi.co/json/', function (data) {
-		alert(data.country_code.toUpperCase());
 	    if (!!countryCodes[data.country_code.toUpperCase()] == true) {
 	    	showCookieAlert();
 	    } else {
