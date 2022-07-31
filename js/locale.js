@@ -39,8 +39,8 @@ function checkLocale() {
 	}
 
 	//$.getJSON('https://freegeoip.app/json/', function (data) {
-	$.getJSON('http://ip-api.com/json/', function (data) {
-		alert(data.countryCode.toUpperCase());
+	$.getJSON('https://ipapi.co/json/', function (data) {
+		alert(data.country_code.toUpperCase());
 	    if (!!countryCodes[data.country_code.toUpperCase()] == true) {
 	    	showCookieAlert();
 	    } else {
