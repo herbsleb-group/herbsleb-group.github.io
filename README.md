@@ -1,7 +1,7 @@
 # Hackathon Planning Kit
 
 This repository contains the hackathon planning kit jointly constructed by:
--	[Institute for Software Research](https://www.isri.cmu.edu/), School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA
+-	[Software and Societal Systems Department](https://s3d.cmu.edu/), School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA
 -	[Institute of Computer Science](https://www.cs.ut.ee/en), University of Tartu, Tartu, Estonia
 
 
