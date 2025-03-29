@@ -15,9 +15,6 @@
     (function ($) {
     "use strict"; // Start of use strict
 
-    // shown banner and deactivate cookies if not agreed
-    checkLocale();
-
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
@@ -102,3 +99,14 @@
     }*/
 
 })(jQuery); // End of use strict
+
+// Email obfuscation
+$(document).ready(function () {
+    const user = "hackathon-planning-kit";
+    const domain = "gmail.com";
+    const email = `${user}@${domain}`;
+
+    $(".email").each(function () {
+        $(this).attr("href", 'mailto:${email}?subject=Contact regarding hackathon-planning-kit.org')
+    });
+});

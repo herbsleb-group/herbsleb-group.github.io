@@ -4,62 +4,69 @@ var references = [{
 	'id': 'intGoal',
 	'type': 'internal',
 	'text': 'Goal',
-	'link': '1'
+	'link': 'Goal'
 }, {
 	'id': 'intTheme',
 	'type': 'internal',
 	'text': 'Theme',
-	'link': '2'
+	'link': 'Theme'
 }, {
 	'id': 'intCompetition',
 	'type': 'internal',
 	'text': 'Competition / cooperation',
-	'link': '3'
+	'link': 'Competition'
 }, {
 	'id': 'intStakeholder',
 	'type': 'internal',
 	'text': 'Stakeholder involvement',
-	'link': '4'
+	'link': 'Stakeholder'
 }, {
 	'id': 'intRecruitment',
 	'type': 'internal',
 	'text': 'Participant recruitment',
-	'link': '5'
+	'link': 'Participant'
 }, {
 	'id': 'intPreparation',
 	'type': 'internal',
 	'text': 'Specialized preparation',
-	'link': '6'
+	'link': 'Preparation'
 }, {
 	'id': 'intDuration',
 	'type': 'internal',
 	'text': 'Duration / breaks',
-	'link': '7'
+	'link': 'Duration'
 }, {
 	'id': 'intIdeation',
 	'type': 'internal',
 	'text': 'Ideation',
-	'link': '8'
+	'link': 'Ideation'
 }, {
 	'id': 'intTeam',
 	'type': 'internal',
 	'text': 'Team formation',
-	'link': '9'
+	'link': 'Team'
 }, {
 	'id': 'intAgenda',
 	'type': 'internal',
 	'text': 'Agenda',
-	'link': '10'
+	'link': 'Agenda'
 }, {
 	'id': 'intMentor',
 	'type': 'internal',
 	'text': 'Mentoring',
-	'link': '11'
+	'link': 'Mentoring'
 }, {
 	'id': 'intContinuity',
 	'type': 'internal',
 	'text': 'Continuity planning',
-	'link': '12'
+	'link': 'Continuity'
+}, {
+	'id': 'falk2025creativity',
+	'type': 'pub',
+	'text': 'Falk, J., Chen, Y., Rafner, J., Zhang, M., Bjerva, J. & Nolte, A. (2025). How Do Hackathons Foster Creativity? Towards AI Collaborative Evaluation of Creativity at Scale. In: <i>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</i>.',
+	'title': 'How Do Hackathons Foster Creativity? Towards AI Collaborative Evaluation of Creativity at Scale. <i>CHI Conference on Human Factors in Computing Systems</i>',
+	'abstract': 'Hackathons have become popular collaborative events for accelerating the development of creative ideas and prototypes. There are several case studies showcasing creative outcomes across domains such as industry, education, and research. However, there are no large-scale studies on creativity in hackathons which can advance theory on how hackathon formats lead to creative outcomes. We conducted a computational analysis of 193,353 hackathon projects. By operationalizing creativity through usefulness and novelty, we refined our dataset to 10,363 projects, allowing us to analyze how participant characteristics, collaboration patterns, and hackathon setups influence the development of creative projects. The contribution of our paper is twofold: We identified means for organizers to foster creativity in hackathons. We also explore the use of large language models (LLMs) to augment the evaluation of creative outcomes and discuss challenges and opportunities of doing this, which has implications for creativity research at large.',
+	'link': 'Falk-Chen-CHI-2025.pdf'
 }, {
 	'id': 'spikol2024investigating',
 	'type': 'pub',
@@ -96,6 +103,11 @@ var references = [{
 	'abstract': 'Artificial Intelligence (AI) Literacy is quickly becoming an essential 21st-century skill. Be it discerning AI art and pictures from human-made ones, challenging answers from chatbots, or addressing ethical consequences of AI – with AI being ever more present in daily life, it is crucial for everyone to be aware of its utility but also potential pitfalls and challenges. This workshop aims to facilitate a hackathon in which AIED conference participants and local stakeholders will come together, exchange ideas and experiences, and collaborate with the aim of building a toolbox to promote AI Literacy. Our goal for this toolbox is to contain a spread of tools – in the form of lesson plans, apps, activities, and others – to support educators in teaching AI Literacy and students in learning or practicing AI Literacy.',
 	'link': 'Schulten-AIED-2024.pdf'
 }, {
+	'id': 'falk2024role',
+	'type': 'pubnopdf',
+	'text': 'Falk, J., Spikol, D., Meda, D., & Melnykowycz, M. (2024). The Role of Slowing Down in Fast-Paced Game Jams. In: <i>Proceedings of the 8th International Conference on Game Jams, Hackathons and Game Creation Events</i> (pp. 33-40).',
+	'title': 'The Role of Slowing Down in Fast-Paced Game Jams <i>International Conference on Game Jams, Hackathons and Game Creation Events</i>'
+}, {
 	'id': 'medina2023startup',
 	'type': 'pub',
 	'text': 'Medina Angarita, M. A., Kolnes, M., & Nolte, A. (2023). Startup creation beyond hackathons – A survey on startup development and support. In: <i>International Conference on Software Business</i> (pp. 205-221).',
@@ -116,6 +128,11 @@ var references = [{
 	'title': 'Opportunities and constraints of women-focused online hackathons. <i>IEEE/ACM International Conference on Software Engineering</i>',
 	'abstract': 'Hackathons are often viewed as not being inclusive to women, who have low participation in these events. Reasons for this include low self-esteem in STEM fields, toxic environments, bad sleeping habits during the event, and a competitive atmosphere. Hackathons also can be a valuable opportunity for undergraduate students to improve their skills, but a lack of gender diversity can prevent women from taking advantage of these opportunities. Recently, initiatives have been implemented to increase the number of women participating in hackathons, such as women-only events, balancing participants by gender during the selection process, and using feminist and social themes for the hackathon. Our qualitative study investigated how event design choices (Focus on Women; Event support activities such as mentoring and pre-pitch; and Event warm-up activities) can influence the participant’s experience in a womenfocused hackathon. Data was collected through surveys and semistructured interviews with participants.',
 	'link': 'Paganini-ICSE-workshop-2023.pdf'
+}, {
+	'id': 'gama2023comfort',
+	'type': 'pubnopdf',
+	'text': 'Gama, K., Zimmerle, C., & Paganini, L. (2023). The Comfort of Distance: Student Choices and Soft Skill Development during a Hybrid Hackathon in Post-Pandemic Learning. In: <i>Proceedings of the XXXVII Brazilian Symposium on Software Engineering</i> (pp. 368-377).',
+	'title': 'The Comfort of Distance: Student Choices and Soft Skill Development during a Hybrid Hackathon in Post-Pandemic Learning. <i>Brazilian Symposium on Software Engineering</i>'
 }, {
 	'id': 'powell2022hackhpc',
 	'type': 'pub',
@@ -147,14 +164,14 @@ var references = [{
 }, {
 	'id': 'imam2022oneoff',
 	'type': 'pub',
-	'text': 'Imam Mahmoud, A. S., Dey, T., Nolte, A., Mockus, A., & Herbsleb, J. D. (2022). One-off events? An empirical study of hackathon code creation and reuse. <i>Empirical Software Engineering</i>, 27.',
+	'text': 'Imam Mahmoud, A. S., Dey, T., Nolte, A., Mockus, A., & Herbsleb, J. D. (2022). One-off events? An empirical study of hackathon code creation and reuse. <i>Empirical Software Engineering</i>, 27(167).',
 	'title': 'One-off events? An empirical study of hackathon code creation and reuse. <i>Empirical Software Engineering</i>',
 	'abstract': '<br/><strong>Context</strong><br/>Hackathons have become popular events for teams to collaborate on projects and develop software prototypes. Most existing research focuses on activities during an event with limited attention to the evolution of the hackathon code.<br/><strong>Objective</strong><br/>We aim to understand the evolution of code used in and created during hackathon events, with a particular focus on the code blobs, specifically, how frequently hackathon teams reuse pre-existing code, how much new code they develop, if that code gets reused afterwards, and what factors affect reuse.<br/><strong>Method</strong><br/>We collected information about 22,183 hackathon projects from Devpost and obtained related code blobs, authors, project characteristics, original author, code creation time, language, and size information from World of Code. We tracked the reuse of code blobs by identifying all commits containing blobs created during hackathons and identifying all projects that contain those commits. We also conducted a series of surveys in order to gain a deeper understanding of hackathon code evolution that we sent out to hackathon participants whose code was reused, whose code was not reused, and developers who reused some hackathon code.<br/><strong>Result</strong><br/>9.14% of the code blobs in hackathon repositories and 8% of the lines of code (LOC) are created during hackathons and around a third of the hackathon code gets reused in other projects by both blob count and LOC. The number of associated technologies and the number of participants in hackathons increase reuse probability.<br/><strong>Conclusion</strong><br/>The results of our study demonstrates hackathons are not always “one-off” events as the common knowledge dictates and it can serve as a starting point for further studies in this area.',
 	'link': 'Imam-EMSE-2022.pdf'
 }, {
 	'id': 'mendes2022sociotechnical',
 	'type': 'pub',
-	'text': 'Mendes, W., Richard, A., Tillo, T.-K., Pinto, G., Gama, K., & Nolte, A. (2022). Socio-technical constraints and affordances of virtual collaboration - A study of four online hackathons. <i>Proc. ACM Hum.-Comput. Interact.</i>',
+	'text': 'Mendes, W., Richard, A., Tillo, T.-K., Pinto, G., Gama, K., & Nolte, A. (2022). Socio-technical constraints and affordances of virtual collaboration - A study of four online hackathons. <i>Proc. ACM Hum.-Comput. Interact.</i>, 6(CSCW2), Article 330 (November 2022), 32 pages.',
 	'title': 'Socio-technical constraints and affordances of virtual collaboration - A study of four online hackathons. <i>Proceedings of the ACM on Human Computer Interaction</i>',
 	'abstract': 'Hackathons and similar time-bounded events have become a popular form of collaboration. They are commonly organized as in-person events during which teams engage in intense collaboration over a short period of time to complete a project that is of interest to them. Most research to date has focused on studying how teams collaborate in a co-located setting, pointing towards the advantages of radical co-location. The global pandemic of 2020, however, has led to many hackathons moving online, which challenges our current understanding of how they function. In this paper, we address this gap by presenting findings from a multiple-case study of 10 hackathon teams that participated in 4 hackathons across two continents. By analyzing the collected data, we found that teams merged synchronous and asynchronous means of communication to maintain a common understanding of work progress as well as to maintain awareness of each other\'s tasks. Task division was self-assigned based on individual skills or interests, while leaders emerged from different strategies (e.g., participant experience, the responsibility of registering the team in an event). Some of the affordances of in-person hackathons, such as the radical co-location of team members, could be partially reproduced in teams that kept synchronous communication channels while working (i.e., shared audio territories), in a sort of "radical virtual co-location". However, others, such as interactions with other teams, easy access to mentors, and networking with other participants, decreased. In addition, the technical constraints of the different communication tools and platforms brought technical problems and were overwhelming to participants. Our work contributes to understanding the virtual collaboration of small teams in the context of online hackathons and how technologies and event structures proposed by organizers imply this collaboration.',
 	'link': 'Mendes-CSCW-2022.pdf'
@@ -165,6 +182,31 @@ var references = [{
 	'title': 'Integrating Hackathons into an Online Cybersecurity Course. <i>IEEE/ACM International Conference on Software Engineering</i>',
 	'abstract': 'Cybersecurity educators have widely introduced hackathons to facilitate practical knowledge gaining in cybersecurity education. Introducing such events into cybersecurity courses can provide valuable learning experiences for students. The nature of the hackathon format encourages a learning-by-doing approach, and the hackathon outcomes can serve as evidence for students knowledge, capability and learning gains. Prior work on hackathons in education mainly focused on collocated hackathon events in the traditional classroom setting. These hackathon events often took place as a one-off event at the end of the course. However, one-off hackathon events at the end of a course might not be sufficient to improve learning. Instead, we focus on analyzing the integration of a series of online hackathon events into an online cybersecurity course and explore how this integration can address online education issues by encouraging collaboration and developing a practical understanding of the delivered course by solving real-world challenges. We evaluate interventions to foster learning and analyze its effect on collaboration and learning gains for students in the course. Our findings indicate that students attribute learning benefits to the introduced interventions that supported teamwork and collaboration, maintained student participation and interest in the course, and encouraged learning-by-doing.',
 	'link': 'Affia-ICSE-2022.pdf'
+}, {
+	'id': 'liu2022understanding',
+	'type': 'pubnopdf',
+	'text': 'Liu, S.-Y., Smith, B. A., Vaish, R., & Monroy-Hernández, A. (2022). Understanding the role of context in creating enjoyable co-located interactions. <i>Proc. ACM Hum.-Comput. Interact.</i>, 6(CSCW1), Article 131 (April 2022), 26 pages.',
+	'title': 'Understanding the role of context in creating enjoyable co-located interactions. <i>Proceedings of the ACM on Human Computer Interaction</i>'
+}, {
+	'id': 'kraus2022coworking',
+	'type': 'pubnopdf',
+	'text': 'Kraus, S., Bouncken, R. B., Görmar, L., González-Serrano, M. H., & Calabuig, F. (2022). Coworking spaces and makerspaces: Mapping the state of research. <i>Journal of Innovation & Knowledge</i>, 7(1).',
+	'title': 'Coworking spaces and makerspaces: Mapping the state of research. <i>Journal of Innovation & Knowledge</i>'
+}, {
+	'id': 'bertello2022open',
+	'type': 'pubnopdf',
+	'text': 'Bertello, A., Bogers, M. L.A.M., & De Bernardi, P. (2022). Open innovation in the face of the COVID-19 grand challenge: insights from the Pan-European hackathon ‘EUvsVirus’. <i>R&D Management</i>, 52(2), 178-192.',
+	'title': 'Open innovation in the face of the COVID-19 grand challenge: insights from the Pan-European hackathon ‘EUvsVirus’. <i>R&D Management</i>'
+}, {
+	'id': 'braune2021interdisciplinary',
+	'type': 'pubnopdf',
+	'text': 'Braune, K., Rojas, P.-D., Hofferbert, J., Valera Sosa, A., Lebedev, A., Balzer, F., Thun, S., Lieber, S., Kirchberger, V., & Poncette, A.-S. (2021). Interdisciplinary online hackathons as an approach to combat the COVID-19 pandemic: case study. <i>Journal of Medical Internet Research</i>, 23(2).',
+	'title': 'Interdisciplinary online hackathons as an approach to combat the COVID-19 pandemic: case study. <i>Journal of Medical Internet Research</i>'
+}, {
+	'id': 'gama2021online',
+	'type': 'pubnopdf',
+	'text': 'Gama, K., Zimmerle, C., & Rossi, P. (2021). Online hackathons as an engaging tool to promote group work in emergency remote learning. In: <i>Proceedings of the 26th ACM Conference on Innovation and Technology in Computer Science Education</i> (pp. 345-351).',
+	'title': 'Online hackathons as an engaging tool to promote group work in emergency remote learning. <i>ACM Conference on Innovation and Technology in Computer Science Education</i>'
 }, {
 	'id': 'imam2021secret',
 	'type': 'pub',
@@ -200,6 +242,21 @@ var references = [{
 	'title': 'How to Support Newcomers in Scientific Hackathons - An Action Research Study on Expert Mentoring. <i>Proceedings of the ACM on Human Computer Interaction</i>',
 	'abstract': 'Time-bounded events such as hackathons have become a global phenomenon. Scientific communities in particular show growing interest in organizing them to attract newcomers and develop technical artifacts to expand their code base. Current hackathon approaches presume that participants have sufficient expertise to work on projects on their own. They only provide occasional support by domain experts serving as mentors which might not be sufficient for newcomers. Drawing from work on workplace and educational mentoring, we developed and evaluated an approach where each hackathon team is supported by a community member who serves in a mentor role that goes beyond providing occasional support. Evaluating this approach, we found that teams who took ownership of their projects, set achievable goals early while building social ties with their mentor and receiving learning-oriented support reported positive perceptions related to their project and an increased interest in the scientific community that organized the hackathon. Our work thus contributes to our understanding of mentoring in hackathons, an area which has not been extensively studied. It also proposes a feasible approach for scientific communities to attract and integrate newcomers which is crucial for their long-term survival.',
 	'link': 'Nolte-CSCW-2020.pdf'
+}, {
+	'id': 'paganini2020engaging',
+	'type': 'pubnopdf',
+	'text': 'Paganini, L., & Gama, K. (2020). Engaging women’s participation in hackathons: A qualitative study with participants of a female-focused hackathon. In: <i>Proceedings of the 5th International Conference on Game Jams, Hackathons and Game Creation Events</i> (pp. 8-15).',
+	'title': 'Engaging women’s participation in hackathons: A qualitative study with participants of a female-focused hackathon <i>International Conference on Game Jams, Hackathons and Game Creation Events</i>'
+}, {
+	'id': 'prado2020trans',
+	'type': 'pubnopdf',
+	'text': 'Prado, R., Mendes, W., Gama, K., & Pinto, G. (2020). How trans-inclusive are hackathons? <i>IEEE Software</i>, 38(2), 26-31.',
+	'title': 'How trans-inclusive are hackathons? <i>IEEE Software</i>'
+}, {
+	'id': 'morrison2020challenges',
+	'type': 'pubnopdf',
+	'text': 'Morrison-Smith, S., & Ruiz, J. (2020). Challenges and barriers in virtual teams: a literature review. <i>SN Applied Sciences</i>, 6(2), 1-33.',
+	'title': 'Challenges and barriers in virtual teams: a literature review. <i>SN Applied Sciences</i>'
 }, {
 	'id': 'nolte2020what',
 	'type': 'pub',
@@ -278,6 +335,11 @@ var references = [{
 	'abstract': 'Time bounded events such as hackathons, data dives, codefests, hack-days, sprints or edit-a-thons have increasingly gained attention from practitioners and researchers. Existing research, however, has mainly focused on the event itself, while potential outcomes of hackathons have received limited attention. Furthermore, most research around hackathons focuses on collegiate or civic events. Research around hackathons internal to tech companies, which are nearly ubiquitous, and present significant organizational, cultural, and managerial challenges, remains scarce. In this paper we address this gap by presenting findings from a case study of five teams which participated in a large scale corporate hackathon. Most team members voiced their intentions to continue the projects their worked on during the hackathon, but those whose projects did get continued were characterized by meticulous preparation, a focus on executing a shared vision during the hackathon, extended dissemination activities afterwards and a fit to existing product lines. Such teams were led by individuals who perceived the hackathon as an opportunity to bring their idea to life and advance their careers, and who recruited teams who had a strong interest in the idea and in learning the skills necessary to contribute efficiently. Our analysis also revealed that individual team members perceived hackathon participation to have positive effects on their career parts, networks and skill development.',
 	'link': 'Nolte-CSCW-2018.pdf'
 }, {
+	'id': 'gama2018hackathon',
+	'type': 'pubnopdf',
+	'text': 'Gama, K., Alencar, B., Calegario, F., Neves, A., & Alessio, P. (2018). A Hackathon Methodology for Undergraduate Course Projects. In: <i>2018 IEEE Frontiers in Education Conference (FIE)</i> (pp. 1-9).',
+	'title': 'A Hackathon Methodology for Undergraduate Course Projects. <i>IEEE Frontiers in Education Conference</i>'
+}, {
 	'id': 'filippova2017from',
 	'type': 'pub',
 	'text': 'Filippova, A., Trainer, E., & Herbsleb, J. D. (2017). From diversity by numbers to diversity as process: supporting inclusiveness in software development teams with brainstorming. In: <i>2017 IEEE/ACM 39th International Conference on Software Engineering (ICSE)</i> (pp. 152-163).',
@@ -326,6 +388,18 @@ var references = [{
 	'title': 'The Big Effects of Short-term Effort: Mentorship and Code Integration in Open Source Scientific Software. <i>Journal of Open Research Software</i>',
 	'abstract': 'Scientific progress relies crucially on software, yet in practice there are significant challenges to scientific software production and maintenance. We conducted a case study of a bioinformatics software library called Biopython to investigate the promise of Google Summer of Code (GSoC), a program that pays students to work on open-source projects for the summer, for addressing these challenges. We find three positive outcomes of GSoC in the Biopython community: the addition of new features to the Biopython codebase, training, and personal development. We also find, however, that mentors face several challenges related to GSoC project selection and ranking. We believe that because GSoC provides an occasion to extend the software with capabilities that can be used to produce new knowledge, and to train successive generations of potential contributors to the software, it can play a vital role in the sustainability of open-source scientific software.',
 	'link': 'Trainer-JORSW-2014.pdf'
+}, {
+	'id': 'nolte2025survey',
+	'type': 'instrument',
+	'text': 'Nolte, A., Filippova, A., &amp; Herbsleb, J. D. (2025). A survey instrument for hackathon organizers and researchers. <i>Zenodo</i>. <a href=\"https://doi.org/10.5281/zenodo.14705828\" target=\"_blank\">https://doi.org/10.5281/zenodo.14705828</a>.',
+	'title': 'A survey instrument for hackathon organizers and researchers',
+	'link': 'Nolte-Zenodo-2025.pdf'
+}, {
+	'id': 'affia2025hybrid',
+	'type': 'instrument',
+	'text': 'Affia-Jomants, A. O., &amp; Nolte, A. (2025). Research instruments for hybrid hackathon organizers and researchers. <i>Zenodo</i>. <a href=\"https://doi.org/10.5281/zenodo.14736328\" target=\"_blank\">https://doi.org/10.5281/zenodo.14736328</a>.',
+	'title': 'Research instruments for hybrid hackathon organizers and researchers',
+	'link': 'Affiajormants-Zenodo-2025.pdf'
 }, {
 	'id': 'cfaplaybook',
 	'type': 'guide',
@@ -376,11 +450,21 @@ var references = [{
 }, {
 	'id': 'zapico2013hacking',
 	'type': 'pubnopdf',
-	'text': 'Zapico, J. L., Pargman, D., Ebner, H., & Eriksson, E. (2013). Hacking sustainability: Broadening participation through green hackathons. In <i>Fourth International Symposium on End-User Development</i>.'
+	'text': 'Zapico, J. L., Pargman, D., Ebner, H., & Eriksson, E. (2013). Hacking sustainability: Broadening participation through green hackathons. In: <i>Fourth International Symposium on End-User Development</i>.'
 }, {
 	'id': 'flow',
 	'type': 'pubnopdf',
 	'text': 'Csikszentmihalyi, M. (1997). Flow and the psychology of discovery and invention. HarperPerennial, New York.'
+}, {
+	'id': 'hackohio2023',
+	'type': 'external',
+	'text': 'https://hack.osu.edu/2023/',
+	'link': 'https://hack.osu.edu/2023/'
+}, {
+	'id': 'bookdash2024',
+	'type': 'external',
+	'text': 'https://the-turing-way.netlify.app/community-handbook/bookdash',
+	'link': 'https://the-turing-way.netlify.app/community-handbook/bookdash'
 }, {
 	'id': 'greatmentor',
 	'type': 'external',
@@ -391,6 +475,11 @@ var references = [{
 	'type': 'external',
 	'text': 'https://www.perfektio.fi/en/blog/how-to-be-a-mentor',
 	'link': 'https://www.perfektio.fi/en/blog/how-to-be-a-mentor'
+}, {
+	'id': 'g48defence',
+	'type': 'external',
+	'text': 'https://garage48.org/events/defence-makeathon-2020',
+	'link': 'https://garage48.org/events/defence-makeathon-2020'
 }, {
 	'id': 'g48mentor',
 	'type': 'external',
@@ -407,11 +496,6 @@ var references = [{
 	'text': 'http://garage48.org/how-it-works',
 	'link': 'http://garage48.org/how-it-works'
 }, {
-	'id': 'startupsfromhackathons',
-	'type': 'external',
-	'text': 'https://www.valuer.ai/blog/50-startups-that-came-from-hackathons',
-	'link': 'https://www.valuer.ai/blog/50-startups-that-came-from-hackathons'
-}, {
 	'id': 'woc',
 	'type': 'external',
 	'text': 'https://github.com/woc-hack',
@@ -427,11 +511,6 @@ var references = [{
 	'text': 'https://github.com/woc-hack/schedule',
 	'link': 'https://github.com/woc-hack/schedule'
 }, {
-	'id': 'sgci2019',
-	'type': 'external',
-	'text': 'https://sciencegateways.org/web/wd/hackathon-2019',
-	'link': 'https://sciencegateways.org/web/wd/hackathon-2019'
-}, {
 	'id': 'brainhack',
 	'type': 'external',
 	'text': 'https://ohbm.github.io/hackathon2018/',
@@ -446,11 +525,6 @@ var references = [{
 	'type': 'external',
 	'text': 'https://medium.com/@sathishvj/please-dont-organize-fun-activities-at-hackathons-a3333f0bbc2c',
 	'link': 'https://medium.com/@sathishvj/please-dont-organize-fun-activities-at-hackathons-a3333f0bbc2c'
-}, {
-	'id': 'hackbox',
-	'type': 'external',
-	'text': 'https://formidable.com/work/hackbox/',
-	'link': 'https://formidable.com/work/hackbox/'
 }, {
 	'id': 'steelhacks',
 	'type': 'external',
@@ -517,10 +591,30 @@ var references = [{
 	'text': 'https://uwescience.github.io/HackWeek-Toolkit/#Objectives/Objectives-and-Goals/#target-audience-and-scoping-to-specific-communities',
 	'link': 'https://uwescience.github.io/HackWeek-Toolkit/#Objectives/Objectives-and-Goals/#target-audience-and-scoping-to-specific-communities'
 }, {
+	'id': 'hpcinthecity',
+	'type': 'external',
+	'text': 'https://hackhpc.github.io/HPCintheCity20/',
+	'link': 'https://hackhpc.github.io/HPCintheCity20/'
+}, {
 	'id': 'hackhpc',
 	'type': 'external',
 	'text': 'http://hackhpc.org/',
 	'link': 'http://hackhpc.org/'
+}, {
+	'id': 'facultyhack2024',
+	'type': 'external',
+	'text': 'https://hackhpc.github.io/facultyhack-gateways24/',
+	'link': 'https://hackhpc.github.io/facultyhack-gateways24/'
+}, {
+	'id': 'hackhpccodeofconduct',
+	'type': 'external',
+	'text': 'http://hackhpc.org/codeofconduct/',
+	'link': 'http://hackhpc.org/codeofconduct/'
+}, {
+	'id': 'hackbeyondthecode2024',
+	'type': 'external',
+	'text': 'https://hackailiteracy.github.io/',
+	'link': 'https://hackailiteracy.github.io/'
 }, {
 	'id': 'mlhmarketing',
 	'type': 'external',
@@ -588,25 +682,26 @@ var references = [{
 	'link': 'https://www.open-bio.org/'
 }];
 
-var goalReferences = ['intRecruitment', 'intStakeholder', 'medina2019does', 'filippova2017from', 'intIdeation', 'intDuration', 'intAgenda', 'g48cyber', 'pe2019understanding', 'globalhack', 'nolte2020mentor', 'intMentor', 'astrohackweek', 'woc', 'intContinuity', 'pe2022corporate', 'nolte2020what'];
-var themeReferences = ['intGoal', 'intStakeholder', 'globalhack', 'woc', 'g48cyber', 'affia2020developing', 'astrohackweek', 'geohackweek', 'openbio', 'brainhack', 'zapico2013hacking', 'hackhpc', 'oneweek', 'pe2019understanding'];
-var competitionReferences = ['intStakeholder', 'intRecruitment', 'intGoal', 'intTheme', 'biohack', 'debcamp', 'pe2019understanding', 'mlhjudging', 'playbook', 'nolte2018you', 'oneweek', 'prizes', 'mlhprizes', 'nolte2020what'];
-var stakeholderReferences = ['intTheme', 'intContinuity', 'stakeholderanalysis', 'steelhacks', 'g48cyber', 'nolte2018you', 'chihacknightprojects', 'pe2019understanding', 'mlhsponsors', 'intMentor', 'nolte2020mentor', 'affia2020developing', 'codeforpgh', 'oneweek', 'intGoal'];
-var recruitmentReferences = ['intGoal', 'intTheme', 'astrohackweek', 'geohackweek', 'mlhmarketing', 'intStakeholder', 'oneweek', 'pe2019understanding', 'pe2019designing', 'hackweektoolkit', 'wocschedule', 'intIdeation', 'intTeam', 'hackweektoolkitrecruit', 'nolte2020what', 'sheinnovates', 'entrofy'];
-var preparationReferences = ['intTheme', 'intGoal', 'intTeam', 'intMentor', 'nolte2020mentor', 'nolte2020what', 'codecademy', 'intRecruitment', 'woc', 'astrohackweek', 'geohackweek', 'hackhpc', 'brainhack'];
-var durationReferences = ['intRecruitment', 'intMentor', 'intStakeholder', 'intTheme', 'g48how', 'oneweek', 'chihacknight', 'intGoal', 'wocschedule', 'intTeam'];
-var ideationReferences = ['filippova2017from', 'intStakeholder', 'intTheme', 'dayofcivichacking', 'greenhackathon', 'nolte2019touched', 'intGoal', 'pe2019understanding', 'intContinuity', 'flow', 'brainstorm', 'intMentor', 'brainstormquestion', 'intTeam', 'nolte2020what', 'intPreparation', 'affia2020developing', 'nolte2018you'];
-var teamReferences = ['intRecruitment', 'intIdeation', 'intStakeholder', 'pe2022corporate', 'hackbox', 'pe2019understanding', 'steelhacks', 'intAgenda', 'intCompetition', 'intGoal', 'nolte2020mentor', 'intMentor', 'intTheme', 'nolte2020what'];
-var agendaReferences = ['intStakeholder', 'intMentor', 'intTheme', 'intGoal', 'intRecruitment', 'woctutorial', 'intCompetition', 'intIdeation', 'intTeam', 'sgci2019', 'g48cyber', 'affia2020developing', 'intPreparation', 'brainhack', 'icebreaker', 'nofun', 'intDuration', 'nolte2020mentor'];
-var mentoringReferences = ['intContinuity', 'intAgenda', 'intIdeation', 'nolte2020mentor', 'intPreparation', 'greatmentor', 'perfectmentor', 'g48mentor', 'intCompetition', 'affia2020developing'];
-var continuityReferences = ['intGoal', 'intStakeholder', 'startupsfromhackathons', 'intAgenda', 'intIdeation', 'pe2022corporate', 'nolte2018you', 'intPreparation', 'nolte2020mentor', 'nolte2020what', 'intCompetition', 'medina2019does', 'intTeam', 'affia2020developing'];
-var peerReviewReferences = ['spikol2024investigating','maillart2024computational','falk2024future','medina2023startup','imam2023exploratory','imam2022oneoff', 'mendes2022sociotechnical', 'pe2022corporate', 'schulten2022howdo', 'affia2022integrating', 'feislachen2022sentiment', 'medina2021supporting', 'powell2021organizing','imam2021secret','nolte2020what', 'nolte2020mentor', 'medina2020what', 'affia2020developing', 'medina2019does', 'pe2019understanding', 'pe2019designing', 'nolte2018you', 'filippova2017from', 'trainer2017mentor', 'trainer2016how', 'trainer2015from', 'trainer2014community', 'trainer2014big'];
+var goalReferences = ['intRecruitment', 'intStakeholder', 'medina2019does', 'filippova2017from', 'intIdeation', 'intDuration', 'intAgenda', 'g48cyber', 'pe2019understanding', 'globalhack', 'intContinuity','nolte2020mentor', 'intMentor', 'astrohackweek', 'hackhpc', 'powell2021organizing', 'woc', 'falk2025creativity', 'pe2022corporate', 'nolte2020what', 'paganini2023opportunities', 'mendes2022sociotechnical', 'bertello2022open', 'braune2021interdisciplinary', 'gama2021online'];
+var themeReferences = ['intGoal', 'intStakeholder', 'globalhack', 'woc', 'g48cyber', 'affia2020developing', 'holmen2024facultyhack', 'schulten2024beyond', 'astrohackweek', 'geohackweek', 'openbio', 'brainhack', 'zapico2013hacking', 'hackhpc', 'pe2019understanding', 'oneweek', 'facultyhack2024', 'hackbeyondthecode2024', 'g48defence', 'hpcinthecity', 'mendes2022sociotechnical', 'bertello2022open', 'paganini2023opportunities', 'braune2021interdisciplinary'];
+var competitionReferences = ['intStakeholder', 'intRecruitment', 'intGoal', 'intTheme', 'biohack', 'debcamp', 'pe2019understanding', 'hpcinthecity', 'mlhjudging', 'playbook', 'nolte2018you', 'oneweek', 'mlhprizes', 'prizes', 'nolte2020what', 'falk2025creativity', 'liu2022understanding', 'kraus2022coworking', 'paganini2023opportunities', 'mendes2022sociotechnical', 'braune2021interdisciplinary', 'morrison2020challenges', 'bertello2022open', 'schulten2022howdo'];
+var stakeholderReferences = ['intTheme', 'intContinuity', 'stakeholderanalysis', 'steelhacks', 'g48cyber', 'nolte2018you', 'chihacknightprojects', 'pe2019understanding', 'mlhsponsors', 'intMentor', 'nolte2020mentor', 'affia2020developing', 'codeforpgh', 'oneweek', 'intGoal', 'mendes2022sociotechnical', 'schulten2022howdo', 'intAgenda', 'powell2021organizing', 'paganini2023opportunities'];
+var recruitmentReferences = ['intGoal', 'intTheme', 'astrohackweek', 'hackhpc', 'woc', 'mlhmarketing', 'intStakeholder', 'leemet2021utilizing', 'oneweek', 'pe2019understanding', 'pe2019designing', 'falk2025creativity', 'hackweektoolkit', 'wocschedule', 'intIdeation', 'intTeam', 'hackweektoolkitrecruit', 'nolte2020what', 'sheinnovates', 'entrofy', 'powell2021organizing', 'paganini2023opportunities', 'mendes2022sociotechnical', 'schulten2022howdo', 'gama2021online', 'gama2023comfort', 'intPreparation'];
+var preparationReferences = ['intTheme', 'intGoal', 'intTeam', 'intMentor', 'nolte2020mentor', 'nolte2020what', 'codecademy', 'braune2021interdisciplinary', 'intRecruitment', 'woc', 'astrohackweek', 'geohackweek', 'brainhack', 'bertello2022open', 'paganini2020engaging', 'prado2020trans', 'schulten2022howdo', 'bookdash2024', 'paganini2023opportunities', 'affia2022integrating'];
+var durationReferences = ['intRecruitment', 'intMentor', 'intStakeholder', 'intTheme', 'g48how', 'oneweek', 'chihacknight', 'intGoal', 'wocschedule', 'intTeam', 'falk2024role', 'paganini2020engaging', 'braune2021interdisciplinary', 'mendes2022sociotechnical', 'paganini2023opportunities', 'bookdash2024', 'intAgenda'];
+var ideationReferences = ['filippova2017from', 'intStakeholder', 'intTheme', 'dayofcivichacking', 'greenhackathon', 'nolte2019touched', 'intGoal', 'leemet2021utilizing', 'pe2019understanding', 'intContinuity', 'flow', 'brainstorm', 'intMentor', 'intTeam', 'brainstormquestion', 'nolte2020what', 'intPreparation', 'hackhpc', 'woc', 'affia2020developing', 'nolte2018you', 'mendes2022sociotechnical', 'gama2021online', 'paganini2023opportunities'];
+var teamReferences = ['intRecruitment', 'intIdeation', 'intStakeholder', 'pe2022corporate', 'pe2019understanding', 'steelhacks', 'hackohio2023', 'intAgenda', 'intCompetition', 'intGoal', 'falk2025creativity', 'intMentor', 'nolte2020mentor', 'intTheme', 'nolte2020what', 'paganini2023opportunities', 'bertello2022open', 'braune2021interdisciplinary', 'hackhpc', 'powell2021organizing', 'gama2018hackathon', 'woc', 'gama2021online'];
+var agendaReferences = ['intStakeholder', 'intMentor', 'nolte2020mentor', 'intTheme', 'intGoal', 'intRecruitment', 'hackhpccodeofconduct', 'woctutorial', 'intCompetition', 'intIdeation', 'intTeam', 'g48cyber', 'affia2020developing', 'intPreparation', 'brainhack', 'icebreaker', 'nofun', 'intDuration', 'paganini2023opportunities', 'powell2021organizing', 'gama2021online', 'bertello2022open', 'mendes2022sociotechnical'];
+var mentoringReferences = ['intContinuity', 'intAgenda', 'intIdeation', 'nolte2020mentor', 'intPreparation', 'greatmentor', 'perfectmentor', 'paganini2023opportunities', 'g48mentor', 'intCompetition', 'affia2020developing', 'mendes2022sociotechnical', 'hackhpc', 'bertello2022open', 'powell2021organizing', 'gama2021online'];
+var continuityReferences = ['intGoal', 'intStakeholder', 'medina2019does', 'intAgenda', 'intIdeation', 'intPreparation', 'pe2022corporate', 'nolte2018you', 'nolte2020mentor', 'nolte2020what', 'imam2021secret', 'imam2022oneoff', 'intCompetition', 'intTeam', 'affia2020developing', 'mendes2022sociotechnical', 'powell2021organizing', 'bertello2022open', 'schulten2022howdo'];
+var peerReviewReferences = ['falk2025creativity','spikol2024investigating','maillart2024computational','falk2024future','medina2023startup','imam2023exploratory','imam2022oneoff', 'mendes2022sociotechnical', 'pe2022corporate', 'schulten2022howdo', 'affia2022integrating', 'feislachen2022sentiment', 'medina2021supporting', 'powell2021organizing','imam2021secret','nolte2020what', 'nolte2020mentor', 'medina2020what', 'affia2020developing', 'medina2019does', 'pe2019understanding', 'pe2019designing', 'nolte2018you', 'filippova2017from', 'trainer2017mentor', 'trainer2016how', 'trainer2015from', 'trainer2014community', 'trainer2014big'];
 var workshopReferences = ['holmen2024facultyhack','schulten2024beyond','paganini2023opportunities','powell2022hackhpc','leemet2021utilizing','nolte2019touched', 'pe2019science', 'powell2018science', 'pe2019the2nd', 'filippova2017the1st'];
 var guideReferences = ['cfaplaybook', 'mlhplaybook', 'opendataplaybook', 'chiplaybook', 'playbookguide', 'healthplaybook', 'earthplaybook'];
+var instrumentReferences = ['nolte2025survey','affia2025hybrid'];
 
 function printDecisionReference(decision, thisId) {
 	var decisionReferences = getDecisionReferences(decision);
-	var decisionNo = getDecisionNo(decision);
+	var decision = capitalizeDecision(decision);
 	
 	for (var i = 0; i < decisionReferences.length; i++) {
 		var id = decisionReferences[i];
@@ -614,7 +709,7 @@ function printDecisionReference(decision, thisId) {
 			var reference = references[j];
 			if (id == reference['id']) {
 				if (reference['id'] == thisId) {
-					document.write('<a href="#decisionsModal'+decisionNo+reference['id']+'">'+(i+1)+'</a>');
+					document.write('<a href="#decisionsModal'+decision+reference['id']+'">'+(i+1)+'</a>');
 				}
 			}
 		}
@@ -623,7 +718,7 @@ function printDecisionReference(decision, thisId) {
 
 function printDecisionReferenceList(decision) {
 	var decisionReferences = getDecisionReferences(decision);
-	var decisionNo = getDecisionNo(decision);
+	var decision = capitalizeDecision(decision);
 
 	for (var i = 0; i < decisionReferences.length; i++) {
 		var id = decisionReferences[i];
@@ -631,18 +726,23 @@ function printDecisionReferenceList(decision) {
 			var reference = references[j];
 			if (id == reference['id']) {
 				if (reference['type'] == 'internal') {
-					document.write('<li id="decisionsModal'+decisionNo+reference['id']+'" class="list-item">Decision <a data-dismiss="modal" data-toggle="modal" href="#decisionsModal'+reference['link']+'">'+reference['text']+'</a></li>');
+					document.write('<li id="decisionsModal'+decision+reference['id']+'" class="list-item">Decision <a data-dismiss="modal" data-toggle="modal" href="#decisionsModal'+reference['link']+'">'+reference['text']+'</a></li>');
 				} else if (reference['type'] == 'external') {
-					document.write('<li id="decisionsModal'+decisionNo+reference['id']+'" class="list-item"><a href="'+reference['link']+'" target="_blank">'+reference['text']+'</a></li>');
+					document.write('<li id="decisionsModal'+decision+reference['id']+'" class="list-item"><a href="'+reference['link']+'" target="_blank">'+reference['text']+'</a></li>');
 				} else if (reference['type'] == 'pub') {
-					document.write('<li id="decisionsModal'+decisionNo+reference['id']+'" class="list-item">'+reference['text']+' (<a href="files/'+reference['link']+'" target="_blank">pdf</a>)</li>');
+					document.write('<li id="decisionsModal'+decision+reference['id']+'" class="list-item">'+reference['text']+' (<a href="files/'+reference['link']+'" target="_blank">pdf</a>)</li>');
 				} else if (reference['type'] == 'pubnopdf') {
-					document.write('<li id="decisionsModal'+decisionNo+reference['id']+'" class="list-item">'+reference['text']+'</li>');
+					document.write('<li id="decisionsModal'+decision+reference['id']+'" class="list-item">'+reference['text']+'</li>');
 				}
 			}
 		}
 	}
 };
+
+
+function capitalizeDecision(decision) {
+    return String(decision).charAt(0).toUpperCase() + String(decision).slice(1);
+}
 
 function getDecisionReferences(decision) {
 	if (decision == 'goal') {
@@ -669,34 +769,6 @@ function getDecisionReferences(decision) {
 		return mentoringReferences;
 	} else if (decision == 'continuity') {
 		return continuityReferences;
-	}
-};
-
-function getDecisionNo(decision) {
-	if (decision == 'goal') {
-		return 1;
-	} else if (decision == 'theme') {
-		return 2;
-	} else if (decision == 'competition') {
-		return 3;
-	} else if (decision == 'stakeholder') {
-		return 4;
-	} else if (decision == 'recruitment') {
-		return 5;
-	} else if (decision == 'preparation') {
-		return 6;
-	} else if (decision == 'duration') {
-		return 7;
-	} else if (decision == 'ideation') {
-		return 8;
-	} else if (decision == 'team') {
-		return 9;
-	} else if (decision == 'agenda') {
-		return 10;
-	} else if (decision == 'mentor') {
-		return 11;
-	} else if (decision == 'continuity') {
-		return 12;
 	}
 };
 
@@ -730,6 +802,18 @@ function printGuideList() {
 				} else if (reference['type'] == 'guidelink') {
 					document.write('<li class="list-item">'+reference['text']+' (<a onclick="$(\'#guide'+reference['id']+'details\').slideToggle(\'slow\');">details</a>, <a href="'+reference['link']+'" target="_blank">link</a>)<p id="guide'+reference['id']+'details" class="listtoggle text-muted">'+reference['details']+'</p></li>');
 				}
+			}
+		}
+	}
+};
+
+function printInstrumentList() {
+	for (var i = 0; i < instrumentReferences.length; i++) {
+		var id = instrumentReferences[i];
+		for (var j = 0; j < references.length; j++) {
+			var reference = references[j];
+			if (reference['id'] == id) {
+				document.write('<li class="list-item">'+reference['title']+' (<a onclick="$(\'#instrument'+reference['id']+'reference\').slideToggle(\'slow\');">reference</a>, <a href="files/'+reference['link']+'" target="_blank">pdf</a>)<p id="instrument'+reference['id']+'reference" class="listtoggle text-muted"><b>Reference:</b> '+reference['text']+'</p></li>');
 			}
 		}
 	}
