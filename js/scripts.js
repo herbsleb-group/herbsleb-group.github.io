@@ -106,7 +106,7 @@ $(document).ready(function () {
     const domain = "gmail.com";
     const email = `${user}@${domain}`;
 
-    $(".email").each(function () {
-        $(this).attr("href", 'mailto:${email}?subject=Contact regarding hackathon-planning-kit.org')
+    $(".email-link").each(function () {
+        $(this).attr("href", `mailto:${email}?subject=Contact regarding hackathon-planning-kit.org`).text(email);
     });
 });
