@@ -107,6 +107,6 @@ $(document).ready(function () {
     const email = `${user}@${domain}`;
 
     $(".email").each(function () {
-        $(this).attr("href", `mailto:${email}?subject=Contact regarding hackathon-planning-kit.org`).text(email);
+        $(this).attr("href", `mailto:${email}?subject=Contact regarding hackathon-planning-kit.org`);
     });
 });
