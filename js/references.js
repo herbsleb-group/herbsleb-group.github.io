@@ -61,6 +61,20 @@ var references = [{
 	'text': 'Continuity planning',
 	'link': 'Continuity'
 }, {
+	'id': 'schulten2025literacy',
+	'type': 'pub',
+	'text': 'Schulten, C., Yuan, L., Gama, K., Nolte, A., & Chounta, I.-A. (2025). Exploring the Potential of Hackathons as a Means to Promote Understanding of AI Literacy: A Case Study. In: <i>Collaboration Technologies and Social Computing</i>.',
+	'title': 'Exploring the Potential of Hackathons as a Means to Promote Understanding of AI Literacy: A Case Study. <i>Collaboration Technologies and Social Computing</i>',
+	'abstract': 'In this paper, we discuss the potential of using hackathons to promote critical discussions among participants from diverse backgrounds in the context of Artificial Intelligence. Our main objective for this work was to explore the viability of utilizing a one-day hackathon to bring together stakeholders, such as researchers, teachers, students and developers, to share their perspectives on AI literacy while collaboratively designing digital learning materials to promote AI literacy. In the current landscape, awareness and AI literacy have become essential. There is, however, no clear consensus on the definition of AI literacy, the needed target focus for teaching it, or how to design (digital) learning materials and curricula. Our findings show that the participants’ mixed backgrounds contributed to a meaningful discussion, and the hackathon outcomes were characterized as relevant and appropriate for teaching AI Literacy. We envision that this work contributes to the discussion about reaching a consensus on the definition of AI literacy, how to design (digital) learning materials and curricula, and who to include when creating these materials, by using a participatory design approach.',
+	'link': 'Schulten-Collabtech-2025.pdf'
+}, {
+	'id': 'affiajomants2025hybrid',
+	'type': 'pub',
+	'text': 'Affia-Jomants, A. O., Herbsleb, J. D., Serebrenik, A., & Nolte, A. (2025). In-person, Online and Back Again - A Tale of Three Hybrid Hackathons. <i>Proc. ACM Hum.-Comput. Interact.</i>, 9, 7, Article CSCW432, 1-35.',
+	'title': 'In-person, Online and Back Again - A Tale of Three Hybrid Hackathons. <i>Proceedings of the ACM on Human Computer Interaction</i>',
+	'abstract': 'Hybrid hackathons, which combine in-person and online participation, present unique challenges for organizers and participants. Although now widely practiced, research on them remains fragmented, with limited integration between hackathon studies and hybrid collaboration theories. Existing strategies for in-person or online-only events often fail to address hybrid-specific issues, such as managing communication across physical and virtual spaces and ensuring balanced participation. Our work examines hybrid hackathons through the lens of hybrid collaboration theories, focusing on how organizers structure these events and how participants navigate associated challenges. We frame our analysis using established theories of hybrid collaboration, focusing on four key dimensions - synchronicity, physical distribution, dynamic transitions, and technological infrastructure - that shape collaboration in hybrid events. Using an exploratory case study of three hybrid hackathons, involving observations and interviews with organizers and participants, we investigate how these dimensions are implemented and how they shape participant experiences. Our findings show differing organizer approaches to the hybrid dimensions, leading to varied participant experiences in access to resources, communication, and coordination. Implementation styles, favoring in-person, online, or balanced participation, produced disparities in engagement. Organizers often relied on technology to bridge physical and virtual spaces, but overlooked critical aspects such as time-zone management, dynamic transitions, and targeted hybrid team support. Participants, in turn, adapted collaboration tactics in response to gaps in event scaffolding, sometimes enabling collaboration, but at other times creating new challenges, underscoring that considerations for the hybrid format are still not fully integrated into hackathon planning. Learning from our findings, we offer practical recommendations for both organizers and participants to improve planning, participation, and collaboration in hybrid hackathon events.',
+	'link': 'Affiajomants-CSCW-2025.pdf'
+}, {
 	'id': 'falk2025creativity',
 	'type': 'pub',
 	'text': 'Falk, J., Chen, Y., Rafner, J., Zhang, M., Bjerva, J. & Nolte, A. (2025). How Do Hackathons Foster Creativity? Towards AI Collaborative Evaluation of Creativity at Scale. In: <i>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</i>.',
@@ -395,11 +409,11 @@ var references = [{
 	'title': 'A survey instrument for hackathon organizers and researchers',
 	'link': 'Nolte-Zenodo-2025.pdf'
 }, {
-	'id': 'affia2025hybrid',
+	'id': 'affiajomants2025hybridinstrument',
 	'type': 'instrument',
 	'text': 'Affia-Jomants, A. O., &amp; Nolte, A. (2025). Research instruments for hybrid hackathon organizers and researchers. <i>Zenodo</i>. <a href=\"https://doi.org/10.5281/zenodo.14736328\" target=\"_blank\">https://doi.org/10.5281/zenodo.14736328</a>.',
 	'title': 'Research instruments for hybrid hackathon organizers and researchers',
-	'link': 'Affiajormants-Zenodo-2025.pdf'
+	'link': 'Affiajomants-Zenodo-2025.pdf'
 }, {
 	'id': 'cfaplaybook',
 	'type': 'guide',
@@ -694,10 +708,10 @@ var teamReferences = ['intRecruitment', 'intIdeation', 'intStakeholder', 'pe2022
 var agendaReferences = ['intStakeholder', 'intMentor', 'nolte2020mentor', 'intTheme', 'intGoal', 'intRecruitment', 'hackhpccodeofconduct', 'woctutorial', 'intCompetition', 'intIdeation', 'intTeam', 'g48cyber', 'affia2020developing', 'intPreparation', 'brainhack', 'icebreaker', 'nofun', 'intDuration', 'paganini2023opportunities', 'powell2021organizing', 'gama2021online', 'bertello2022open', 'mendes2022sociotechnical'];
 var mentoringReferences = ['intContinuity', 'intAgenda', 'intIdeation', 'nolte2020mentor', 'intPreparation', 'greatmentor', 'perfectmentor', 'paganini2023opportunities', 'g48mentor', 'intCompetition', 'affia2020developing', 'mendes2022sociotechnical', 'hackhpc', 'bertello2022open', 'powell2021organizing', 'gama2021online'];
 var continuityReferences = ['intGoal', 'intStakeholder', 'medina2019does', 'intAgenda', 'intIdeation', 'intPreparation', 'pe2022corporate', 'nolte2018you', 'nolte2020mentor', 'nolte2020what', 'imam2021secret', 'imam2022oneoff', 'intCompetition', 'intTeam', 'affia2020developing', 'mendes2022sociotechnical', 'powell2021organizing', 'bertello2022open', 'schulten2022howdo'];
-var peerReviewReferences = ['falk2025creativity','spikol2024investigating','maillart2024computational','falk2024future','medina2023startup','imam2023exploratory','imam2022oneoff', 'mendes2022sociotechnical', 'pe2022corporate', 'schulten2022howdo', 'affia2022integrating', 'feislachen2022sentiment', 'medina2021supporting', 'powell2021organizing','imam2021secret','nolte2020what', 'nolte2020mentor', 'medina2020what', 'affia2020developing', 'medina2019does', 'pe2019understanding', 'pe2019designing', 'nolte2018you', 'filippova2017from', 'trainer2017mentor', 'trainer2016how', 'trainer2015from', 'trainer2014community', 'trainer2014big'];
+var peerReviewReferences = ['schulten2025literacy','affiajomants2025hybrid','falk2025creativity','spikol2024investigating','maillart2024computational','falk2024future','medina2023startup','imam2023exploratory','imam2022oneoff', 'mendes2022sociotechnical', 'pe2022corporate', 'schulten2022howdo', 'affia2022integrating', 'feislachen2022sentiment', 'medina2021supporting', 'powell2021organizing','imam2021secret','nolte2020what', 'nolte2020mentor', 'medina2020what', 'affia2020developing', 'medina2019does', 'pe2019understanding', 'pe2019designing', 'nolte2018you', 'filippova2017from', 'trainer2017mentor', 'trainer2016how', 'trainer2015from', 'trainer2014community', 'trainer2014big'];
 var workshopReferences = ['holmen2024facultyhack','schulten2024beyond','paganini2023opportunities','powell2022hackhpc','leemet2021utilizing','nolte2019touched', 'pe2019science', 'powell2018science', 'pe2019the2nd', 'filippova2017the1st'];
 var guideReferences = ['cfaplaybook', 'mlhplaybook', 'opendataplaybook', 'chiplaybook', 'playbookguide', 'healthplaybook', 'earthplaybook'];
-var instrumentReferences = ['nolte2025survey','affia2025hybrid'];
+var instrumentReferences = ['nolte2025survey','affiajomants2025hybridinstrument'];
 
 function printDecisionReference(decision, thisId) {
 	var decisionReferences = getDecisionReferences(decision);
