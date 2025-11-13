@@ -2,7 +2,7 @@
 
 This repository contains the hackathon planning kit jointly constructed by:
 -	[Software and Societal Systems Department](https://s3d.cmu.edu/), School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA
--	[Institute of Computer Science](https://www.cs.ut.ee/en), University of Tartu, Tartu, Estonia
+-	[Department of Mathematics and Computer Science](https://www.tue.nl/en/our-university/departments/mathematics-and-computer-science), Eindhoven University of Technology, Eindhoven, The Netherlands
 
 
 [**Read our herbsleb-group’s hackathon planning kit**](https://hackathon-planning-kit.org/)
