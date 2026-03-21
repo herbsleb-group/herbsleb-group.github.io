@@ -61,6 +61,20 @@ var references = [{
 	'text': 'Continuity planning',
 	'link': 'Continuity'
 }, {
+	'id': 'gama2026vibes',
+	'type': 'pub',
+	'text': 'Gama, K., Calegario, F., Jackson, V., Nolte, A., Morais, L. A., & Garcia, V. (2026). Can you feel the vibes?: An exploration of novice programmer engagement with vibe coding. In: <i>48th International Conference on Software Engineering: Software Engineering Education and Training</i>.',
+	'title': 'Can you feel the vibes?: An exploration of novice programmer engagement with vibe coding. <i>IEEE/ACM International Conference on Software Engineering</i>',
+	'abstract': 'Emerging alongside generative AI and the broader trend of AI assisted coding, the term “vibe coding” refers to creating software via natural language prompts rather than direct code authorship. This approach promises to democratize software development, but its educational implications remain underexplored. This paper reports on a one-day educational hackathon investigating how novice programmers and mixed-experience teams engage with vibe coding. We organized an inclusive event at a Brazilian public university with 31 undergraduate participants from computing and non-computing disciplines, divided into nine teams. Through observations, an exit survey, and semi-structured interviews, we examined creative processes, tool usage patterns, collaboration dynamics, and learning outcomes. Findings reveal that vibe coding enabled rapid prototyping and cross-disciplinary collaboration, with participants developing prompt engineering skills and delivering functional demonstrations within time constraints. However, we observed premature convergence in ideation, uneven code quality requiring rework, and limited engagement with core software engineering practices. Teams adopted sophisticated workflows combining multiple AI tools in pipeline configurations, with human judgment remaining essential for critical refinement. The short format (9 hours) proved effective for confidence-building among newcomers while accommodating participants with limited availability. We conclude that vibe coding hackathons can serve as valuable low-stakes learning environments when coupled with explicit scaffolds for divergent thinking, critical evaluation of AI outputs, and realistic expectations about production quality.',
+	'link': 'Gama-ICSE-2026.pdf'
+}, {
+	'id': 'halmans2026hackrep',
+	'type': 'pub',
+	'text': 'Halmans, S., Paganini, L., Serebrenik, A., & Nolte, A. (2026). HackRep: A Large-Scale Dataset of GitHub Hackathon Projects. In: <i>Proceedings of the 2026 IEEE/ACM 23rd International Conference on Mining Software Repositories - Data and Tool Showcase Track</i>.',
+	'title': 'HackRep: A Large-Scale Dataset of GitHub Hackathon Projects. <i>IEEE/ACM International Conference on Mining Software Repositories</i>',
+	'abstract': 'Hackathons are time-bound collaborative events that often target software creation. Although hackathons have been studied in the past, these studies have been limited to in-depth studies of few events, limiting understanding of hackathons as a software engineering activity. To complement the existing body of knowledge, we introduce HackRep, a dataset of 100,356 hackathon GitHub repositories. We illustrate the ways HackRep can benefit software engineering researchers by presenting a preliminary investigation of hackathon continuation, composition of hackathon teams, and the ability to estimate the geographical location of hackathons. In these investigations, we display the opportunities made possible with this dataset, for instance showing the possibility of estimating hackathon durations based on commit timestamps.',
+	'link': 'Halmans-MSR-2026.pdf'
+}, {
 	'id': 'schulten2025literacy',
 	'type': 'pub',
 	'text': 'Schulten, C., Yuan, L., Gama, K., Nolte, A., & Chounta, I.-A. (2025). Exploring the Potential of Hackathons as a Means to Promote Understanding of AI Literacy: A Case Study. In: <i>Collaboration Technologies and Social Computing</i>.',
@@ -192,7 +206,7 @@ var references = [{
 }, {
 	'id': 'affia2022integrating',
 	'type': 'pub',
-	'text': 'Affia, A. O., Nolte, A., &amp; Matulevi&#269;ius, R. (2022). Integrating Hackathons into an Online Cybersecurity Course. In: <i>44th International Conference on Software Engineering: Software Engineering Education and Training</i>.',
+	'text': 'Affia, A. O., Nolte, A., & Matulevi&#269;ius, R. (2022). Integrating Hackathons into an Online Cybersecurity Course. In: <i>44th International Conference on Software Engineering: Software Engineering Education and Training</i>.',
 	'title': 'Integrating Hackathons into an Online Cybersecurity Course. <i>IEEE/ACM International Conference on Software Engineering</i>',
 	'abstract': 'Cybersecurity educators have widely introduced hackathons to facilitate practical knowledge gaining in cybersecurity education. Introducing such events into cybersecurity courses can provide valuable learning experiences for students. The nature of the hackathon format encourages a learning-by-doing approach, and the hackathon outcomes can serve as evidence for students knowledge, capability and learning gains. Prior work on hackathons in education mainly focused on collocated hackathon events in the traditional classroom setting. These hackathon events often took place as a one-off event at the end of the course. However, one-off hackathon events at the end of a course might not be sufficient to improve learning. Instead, we focus on analyzing the integration of a series of online hackathon events into an online cybersecurity course and explore how this integration can address online education issues by encouraging collaboration and developing a practical understanding of the delivered course by solving real-world challenges. We evaluate interventions to foster learning and analyze its effect on collaboration and learning gains for students in the course. Our findings indicate that students attribute learning benefits to the introduced interventions that supported teamwork and collaboration, maintained student participation and interest in the course, and encouraged learning-by-doing.',
 	'link': 'Affia-ICSE-2022.pdf'
@@ -288,7 +302,7 @@ var references = [{
 }, {
 	'id': 'affia2020developing',
 	'type': 'pub',
-	'text': 'Affia, A. O., Nolte, A., &amp; Matulevi&#269;ius, R. (2020). Developing and Evaluating a Hackathon Approach to Foster Security Learning. In: <i>Collaboration Technologies and Social Computing</i>.',
+	'text': 'Affia, A. O., Nolte, A., & Matulevi&#269;ius, R. (2020). Developing and Evaluating a Hackathon Approach to Foster Security Learning. In: <i>Collaboration Technologies and Social Computing</i>.',
 	'title': 'Developing and Evaluating a Hackathon Approach to Foster Security Learning. <i>Collaboration Technologies and Social Computing</i>',
 	'abstract': 'Securing information systems and teaching people about how to use them securely is one of the significant challenges of the coming years. There is, however, a considerable lack of feasible approaches to train potential future professionals on security. Hackathons appear to be a good approach because studies have found them to not only be useful to teach participants but also to encourage people to explore the security of information systems. Such benefits cannot materialize without careful planning though. In our paper, we propose and evaluate a set of interventions aimed at fostering security learning amongst hackathon participants. Evaluating our approach, we found that emphasizing the need for idea generation, introducing security talks relevant to the ideas generated, interaction with mentors that come from diverse backgrounds, and the introduction of incentives can encourage security learning among participants.',
 	'link': 'Affia-Collabtech-2020.pdf'
@@ -398,20 +412,26 @@ var references = [{
 }, {
 	'id': 'trainer2014big',
 	'type': 'pub',
-	'text': 'Trainer, E. H., Chaihirunkarn C., &amp; Herbsleb, J. D. (2014). The Big Effects of Short-term Efforts: Mentorship and Code Integration in Open Source Scientific Software. <i>Journal of Open Research Software</i>, 2(1), 1-5.',
+	'text': 'Trainer, E. H., Chaihirunkarn C., & Herbsleb, J. D. (2014). The Big Effects of Short-term Efforts: Mentorship and Code Integration in Open Source Scientific Software. <i>Journal of Open Research Software</i>, 2(1), 1-5.',
 	'title': 'The Big Effects of Short-term Effort: Mentorship and Code Integration in Open Source Scientific Software. <i>Journal of Open Research Software</i>',
 	'abstract': 'Scientific progress relies crucially on software, yet in practice there are significant challenges to scientific software production and maintenance. We conducted a case study of a bioinformatics software library called Biopython to investigate the promise of Google Summer of Code (GSoC), a program that pays students to work on open-source projects for the summer, for addressing these challenges. We find three positive outcomes of GSoC in the Biopython community: the addition of new features to the Biopython codebase, training, and personal development. We also find, however, that mentors face several challenges related to GSoC project selection and ranking. We believe that because GSoC provides an occasion to extend the software with capabilities that can be used to produce new knowledge, and to train successive generations of potential contributors to the software, it can play a vital role in the sustainability of open-source scientific software.',
 	'link': 'Trainer-JORSW-2014.pdf'
 }, {
+	'id': 'halmans2026hackrepdataset',
+	'type': 'instrument',
+	'text': 'Halmans, S., Paganini, L., Serebrenik, A., & Nolte, A. (2026). HackRep: A Large-Scale Dataset of GitHub Hackathon Projects. <i>Zenodo</i>, <a href=\"https://doi.org/10.5281/zenodo.17572684\" target=\"_blank\">https://doi.org/10.5281/zenodo.17572684</a>.',
+	'title': 'HackRep: A Large-Scale Dataset of GitHub Hackathon Projects',
+	'link': 'Halmans-MSR-2026.pdf'
+}, {
 	'id': 'nolte2025survey',
 	'type': 'instrument',
-	'text': 'Nolte, A., Filippova, A., &amp; Herbsleb, J. D. (2025). A survey instrument for hackathon organizers and researchers. <i>Zenodo</i>. <a href=\"https://doi.org/10.5281/zenodo.14705828\" target=\"_blank\">https://doi.org/10.5281/zenodo.14705828</a>.',
+	'text': 'Nolte, A., Filippova, A., & Herbsleb, J. D. (2025). A survey instrument for hackathon organizers and researchers. <i>Zenodo</i>. <a href=\"https://doi.org/10.5281/zenodo.14705828\" target=\"_blank\">https://doi.org/10.5281/zenodo.14705828</a>.',
 	'title': 'A survey instrument for hackathon organizers and researchers',
 	'link': 'Nolte-Zenodo-2025.pdf'
 }, {
 	'id': 'affiajomants2025hybridinstrument',
 	'type': 'instrument',
-	'text': 'Affia-Jomants, A. O., &amp; Nolte, A. (2025). Research instruments for hybrid hackathon organizers and researchers. <i>Zenodo</i>. <a href=\"https://doi.org/10.5281/zenodo.14736328\" target=\"_blank\">https://doi.org/10.5281/zenodo.14736328</a>.',
+	'text': 'Affia-Jomants, A. O., & Nolte, A. (2025). Research instruments for hybrid hackathon organizers and researchers. <i>Zenodo</i>. <a href=\"https://doi.org/10.5281/zenodo.14736328\" target=\"_blank\">https://doi.org/10.5281/zenodo.14736328</a>.',
 	'title': 'Research instruments for hybrid hackathon organizers and researchers',
 	'link': 'Affiajomants-Zenodo-2025.pdf'
 }, {
@@ -708,10 +728,10 @@ var teamReferences = ['intRecruitment', 'intIdeation', 'intStakeholder', 'pe2022
 var agendaReferences = ['intStakeholder', 'intMentor', 'nolte2020mentor', 'intTheme', 'intGoal', 'intRecruitment', 'hackhpccodeofconduct', 'woctutorial', 'intCompetition', 'intIdeation', 'intTeam', 'g48cyber', 'affia2020developing', 'intPreparation', 'brainhack', 'icebreaker', 'nofun', 'intDuration', 'paganini2023opportunities', 'powell2021organizing', 'gama2021online', 'bertello2022open', 'mendes2022sociotechnical'];
 var mentoringReferences = ['intContinuity', 'intAgenda', 'intIdeation', 'nolte2020mentor', 'intPreparation', 'greatmentor', 'perfectmentor', 'paganini2023opportunities', 'g48mentor', 'intCompetition', 'affia2020developing', 'mendes2022sociotechnical', 'hackhpc', 'bertello2022open', 'powell2021organizing', 'gama2021online'];
 var continuityReferences = ['intGoal', 'intStakeholder', 'medina2019does', 'intAgenda', 'intIdeation', 'intPreparation', 'pe2022corporate', 'nolte2018you', 'nolte2020mentor', 'nolte2020what', 'imam2021secret', 'imam2022oneoff', 'intCompetition', 'intTeam', 'affia2020developing', 'mendes2022sociotechnical', 'powell2021organizing', 'bertello2022open', 'schulten2022howdo'];
-var peerReviewReferences = ['schulten2025literacy','affiajomants2025hybrid','falk2025creativity','spikol2024investigating','maillart2024computational','falk2024future','medina2023startup','imam2023exploratory','imam2022oneoff', 'mendes2022sociotechnical', 'pe2022corporate', 'schulten2022howdo', 'affia2022integrating', 'feislachen2022sentiment', 'medina2021supporting', 'powell2021organizing','imam2021secret','nolte2020what', 'nolte2020mentor', 'medina2020what', 'affia2020developing', 'medina2019does', 'pe2019understanding', 'pe2019designing', 'nolte2018you', 'filippova2017from', 'trainer2017mentor', 'trainer2016how', 'trainer2015from', 'trainer2014community', 'trainer2014big'];
-var workshopReferences = ['holmen2024facultyhack','schulten2024beyond','paganini2023opportunities','powell2022hackhpc','leemet2021utilizing','nolte2019touched', 'pe2019science', 'powell2018science', 'pe2019the2nd', 'filippova2017the1st'];
+var peerReviewReferences = ['gama2026vibes','schulten2025literacy','affiajomants2025hybrid','falk2025creativity','spikol2024investigating','maillart2024computational','falk2024future','medina2023startup','imam2023exploratory','imam2022oneoff', 'mendes2022sociotechnical', 'pe2022corporate', 'schulten2022howdo', 'affia2022integrating', 'feislachen2022sentiment', 'medina2021supporting', 'powell2021organizing','imam2021secret','nolte2020what', 'nolte2020mentor', 'medina2020what', 'affia2020developing', 'medina2019does', 'pe2019understanding', 'pe2019designing', 'nolte2018you', 'filippova2017from', 'trainer2017mentor', 'trainer2016how', 'trainer2015from', 'trainer2014community', 'trainer2014big'];
+var workshopReferences = ['halmans2026hackrep','holmen2024facultyhack','schulten2024beyond','paganini2023opportunities','powell2022hackhpc','leemet2021utilizing','nolte2019touched', 'pe2019science', 'powell2018science', 'pe2019the2nd', 'filippova2017the1st'];
 var guideReferences = ['cfaplaybook', 'mlhplaybook', 'opendataplaybook', 'chiplaybook', 'playbookguide', 'healthplaybook', 'earthplaybook'];
-var instrumentReferences = ['nolte2025survey','affiajomants2025hybridinstrument'];
+var instrumentAndDatasetReferences = ['halmans2026hackrepdataset','nolte2025survey','affiajomants2025hybridinstrument'];
 
 function printDecisionReference(decision, thisId) {
 	var decisionReferences = getDecisionReferences(decision);
@@ -821,13 +841,13 @@ function printGuideList() {
 	}
 };
 
-function printInstrumentList() {
-	for (var i = 0; i < instrumentReferences.length; i++) {
-		var id = instrumentReferences[i];
+function printInstrumentAndDatasetList() {
+	for (var i = 0; i < instrumentAndDatasetReferences.length; i++) {
+		var id = instrumentAndDatasetReferences[i];
 		for (var j = 0; j < references.length; j++) {
 			var reference = references[j];
 			if (reference['id'] == id) {
-				document.write('<li class="list-item">'+reference['title']+' (<a onclick="$(\'#instrument'+reference['id']+'reference\').slideToggle(\'slow\');">reference</a>, <a href="files/'+reference['link']+'" target="_blank">pdf</a>)<p id="instrument'+reference['id']+'reference" class="listtoggle text-muted"><b>Reference:</b> '+reference['text']+'</p></li>');
+				document.write('<li class="list-item">'+reference['title']+' (<a onclick="$(\'#instrumentAndDataset'+reference['id']+'reference\').slideToggle(\'slow\');">reference</a>, <a href="files/'+reference['link']+'" target="_blank">pdf</a>)<p id="instrumentAndDataset'+reference['id']+'reference" class="listtoggle text-muted"><b>Reference:</b> '+reference['text']+'</p></li>');
 			}
 		}
 	}
