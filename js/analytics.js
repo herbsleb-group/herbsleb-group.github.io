@@ -1,7 +1,7 @@
 /*
  * Script to enable Google Analytics for this website.
  */
-const GA_MEASUREMENT_ID = "G-ZCP73FZ2JD";
+const GA_MEASUREMENT_ID = "G-4TNGT8TGMK";
 const EU_COUNTRIES = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE"];
 
 // Set up dataLayer and gtag immediately — the script tag in <head> is already loading
